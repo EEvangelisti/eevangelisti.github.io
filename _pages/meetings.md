@@ -39,7 +39,7 @@ Discussions ongoing.
 
     <div class="meeting-links">
       {% if m.website %}
-        You can check the <a href="{{ m.website }}" target="_blank" rel="noopener">meeting website</a>
+        <a href="{{ m.website }}" target="_blank" rel="noopener">Meeting website</a>
       {% endif %}
 
       {% if m.abstract-book %}
