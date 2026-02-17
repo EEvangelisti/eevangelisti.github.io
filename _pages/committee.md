@@ -104,7 +104,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
         <div class="member-info">
             <div class="member-name"><a href="https://plant-en.njau.edu.cn/info/1009/1140.htm" target="_blank" rel="noopener">Suomeng DONG</a></div>
             <div class="member-role">Member</div>
-            <div class="member-affiliation">Muséum National d'Histoire Naturelle (France)</div>
+            <div class="member-affiliation">Nanjing Agricultural University (China)</div>
         </div>
     </div>
 
