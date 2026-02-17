@@ -1,0 +1,23 @@
+- year: 2025
+  date: July 12
+  description: The 2025 session took place in Cologne (Germany) as a satellite event of the 20th Congress on Molecular Plant-Microbe Interactions.
+  group-picture: OMGN-2025.jpg
+  website: https://omgn2025.sciencesconf.org/?lang=en
+  abstract-book: OMGN-2025_abstract_book.pdf
+  organizers: Claire GACHON, Jeanne MIEBACH.
+
+- year: 2023
+  date: July 12
+  description: The 2023 session took place in Lyon (France) as a satellite event of the 12th International Congress of Plant Pathology.
+  group-picture: OMGN-2023.jpg
+  website: https://www.icpp2023.org/programme/satellite-events
+  abstract-book: OMGN-2023_abstract_book.pdf
+  organizers: Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
+
+- year: 2022
+  date: August 22-25
+  description: The 2022 session took place in Brno (Czech Republic), at the Mendel University.
+  group-picture: OMGN-2022.jpg
+  website: http://www.phytophthora.org/omgn-2022/
+  abstract-book: OMGN-2022_abstract_book.pdf)
+  organizers: Thomas JUNG, the <i>Phytophthora</i> Research Centre at Mendel University.
