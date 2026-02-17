@@ -17,9 +17,9 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 </div>
 
 The 2025 session took place in Cologne (Germany) as a satellite event of the 20th Congress on Molecular Plant-Microbe Interactions.
-You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2025_abstract_book.pdf) (pdf).
+You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2025_abstract_book.pdf) (PDF).
 
-**Organizers:** Claire GACHON, Jeanne MIEBACH.
+**Local organizers:** Claire GACHON, Jeanne MIEBACH.
 
 
 
@@ -33,9 +33,9 @@ You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en) 
 
 The 2023 session took place in Lyon (France) as a satellite event of the 12th International Congress of Plant Pathology.
 It was combined with the 7th International Oomycetes Workshop (IOW).
-You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite-events) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2023_abstract_book.pdf) (pdf).
+You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite-events) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2023_abstract_book.pdf) (PDF).
 
-**Organizers:**  Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
+**Local organizers:**  Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
 
 
 ### OMGN 2022 (August 22-25)
@@ -47,9 +47,9 @@ You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite
 </div>
 
 The 2022 session took place in Brno (Czech Republic), at the Mendel University.
-You can check the [meeting webpage](http://www.phytophthora.org/omgn-2022/) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2022_abstract_book.pdf) (pdf).
+You can check the [meeting webpage](http://www.phytophthora.org/omgn-2022/) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2022_abstract_book.pdf) (PDF).
 
-**Organizers:** Thomas JUNG, the *Phytophthora* Research Centre at Mendel University.
+**Local organizers:** Thomas JUNG, the *Phytophthora* Research Centre at Mendel University.
 
 
 ### OMGN 2019 (July 10-13)
@@ -62,9 +62,10 @@ You can check the [meeting webpage](http://www.phytophthora.org/omgn-2022/) and 
 
 The 2019 session took place in Oban (United Kingdom), at the Scottish Association for Marine Science (SAAS).
 
-**Organizers:** Claire GACHON.
+**Local organizers:** Claire GACHON.
 
 ## Previous meetings
 
-|**Year**|**City**|**Country**|
-|-|-|-|
+|**Date**|**Location**|**Country**|
+|2018, July 14-17|Malmo|Sweden|
+|2017, March 11-14|Asilomar Conference Grounds|USA|
