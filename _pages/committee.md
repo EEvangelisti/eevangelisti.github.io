@@ -52,7 +52,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
     <div class="member">
         <img src="{{ site.baseurl }}/assets/images/steering/MiaoyingTian.jpg" alt="Miaoying Tian">
         <div class="member-info">
-            <div class="member-name">Miaoying Tian</div>
+            <div class="member-name"><a href="https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html" target="_blank" rel="noopener">Miaoying Tian</a></div>
             <div class="member-role">Co-Chair</div>
             <div class="member-affiliation">University of Georgia (USA)</div>
         </div>
@@ -61,7 +61,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
     <div class="member">
         <img src="{{ site.baseurl }}/assets/images/steering/MahmutTor.jpg" alt="Mahmut Tor">
         <div class="member-info">
-            <div class="member-name">Mahmut Tor</div>
+            <div class="member-name"><a href="https://www.worcester.ac.uk/about/profiles/professor-mahmut-tor" target="_blank" rel="noopener">Mahmut Tor</a></div>
             <div class="member-role">Co-Chair</div>
             <div class="member-affiliation">University of Worcester (United Kingdom)</div>
         </div>
@@ -70,10 +70,29 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
     <div class="member">
         <img src="{{ site.baseurl }}/assets/images/steering/JeanRistaino.jpg" alt="Jean Ristaino">
         <div class="member-info">
-            <div class="member-name">Jean Ristaino</div>
+            <div class="member-name"><a href="https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/" target="_blank" rel="noopener">Jean Ristaino</a></div>
             <div class="member-role">Member</div>
             <div class="member-affiliation">NC State University (USA)</div>
         </div>
     </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/ElodieGaulin.jpg" alt="Elodie Gaulin">
+        <div class="member-info">
+            <div class="member-name"><a href="https://lrsv.cnrs.fr/elodie-gaulin/" target="_blank" rel="noopener">Elodie Gaulin</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">NC State University (USA)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/WenboMa.jpg" alt="Wenbo Ma">
+        <div class="member-info">
+            <div class="member-name"><a href="https://www.tsl.ac.uk/about/people/wenbo-ma" target="_blank" rel="noopener">Wenbo Ma</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">The Sainsbury Laboratory (United Kingdom)</div>
+        </div>
+    </div>
+
 
 </div>
