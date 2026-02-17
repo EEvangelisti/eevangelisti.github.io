@@ -35,104 +35,21 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 ## Current OMGN-SC members
 
 <div class="committee-list">
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/MiaoyingTian.jpg" alt="Miaoying Tian">
-        <div class="member-info">
-            <div class="member-name"><a href="https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html" target="_blank" rel="noopener">Miaoying TIAN</a></div>
-            <div class="member-role">Co-Chair</div>
-            <div class="member-affiliation">University of Georgia (USA)</div>
-        </div>
+{% for p in site.data.committee %}
+  <div class="member">
+    <img src="{{ site.baseurl }}/assets/images/steering/{{ p.photo }}" alt="{{ p.name }}">
+    <div class="member-info">
+      <div class="member-name">
+        {% if p.url %}
+          <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>
+        {% else %}
+          {{ p.name }}
+        {% endif %}
+      </div>
+      <div class="member-role">{{ p.role }}</div>
+      <div class="member-affiliation">{{ p.affiliation }}</div>
     </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/MahmutTor.jpg" alt="Mahmut Tor">
-        <div class="member-info">
-            <div class="member-name"><a href="https://www.worcester.ac.uk/about/profiles/professor-mahmut-tor" target="_blank" rel="noopener">Mahmut TÖR</a></div>
-            <div class="member-role">Co-Chair</div>
-            <div class="member-affiliation">University of Worcester (United Kingdom)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/JeanRistaino.jpg" alt="Jean Ristaino">
-        <div class="member-info">
-            <div class="member-name"><a href="https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/" target="_blank" rel="noopener">Jean RISTAINO</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">NC State University (USA)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/ElodieGaulin.jpg" alt="Elodie Gaulin">
-        <div class="member-info">
-            <div class="member-name"><a href="https://lrsv.cnrs.fr/elodie-gaulin/" target="_blank" rel="noopener">Elodie GAULIN</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Université de Toulouse (France)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/WenboMa.jpg" alt="Wenbo Ma">
-        <div class="member-info">
-            <div class="member-name"><a href="https://www.tsl.ac.uk/about/people/wenbo-ma" target="_blank" rel="noopener">Wenbo MA</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">The Sainsbury Laboratory (United Kingdom)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/ClaireGachon.jpg" alt="Claire Gachon">
-        <div class="member-info">
-            <div class="member-name"><a href="https://mcam.mnhn.fr/fr/annuaire/claire-gachon-6345" target="_blank" rel="noopener">Claire GACHON</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Muséum National d'Histoire Naturelle (France)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/EricaGoss.jpg" alt="Erica Goss">
-        <div class="member-info">
-            <div class="member-name"><a href="https://plantpath.ifas.ufl.edu/people/faculty-pages/erica-goss/" target="_blank" rel="noopener">Erica GOSS</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">University of Florida (USA)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/SuomengDong.jpg" alt="Suomeng Dong">
-        <div class="member-info">
-            <div class="member-name"><a href="https://plant-en.njau.edu.cn/info/1009/1140.htm" target="_blank" rel="noopener">Suomeng DONG</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Nanjing Agricultural University (China)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/EdouardEvangelisti.jpg" alt="Edouard Evangelisti">
-        <div class="member-info">
-            <div class="member-name"><a href="https://institut-sophia-agrobiotech.paca.hub.inrae.fr/equipes-isa/ipo/membres-de-l-equipe/evangelisti-edouard" target="_blank" rel="noopener">Edouard EVANGELISTI</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Université Côte d'Azur (France)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/SebastianSchornack.jpg" alt="Sebastian Schornack">
-        <div class="member-info">
-            <div class="member-name"><a href="https://www.slcu.cam.ac.uk/people/sebastian-schornack" target="_blank" rel="noopener">Sebastian SCHORNACK</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Sainsbury Laboratory Cambridge University (United Kingdom)</div>
-        </div>
-    </div>
-
-    <div class="member">
-        <img src="{{ site.baseurl }}/assets/images/steering/PaulFrancisMorris.jpg" alt="Paul Francis MORRIS">
-        <div class="member-info">
-            <div class="member-name"><a href="https://www.bgsu.edu/arts-and-sciences/biological-sciences/faculty-and-staff/alphabetical-listing/paul-morris.html" target="_blank" rel="noopener">Paul Francis Morris</a></div>
-            <div class="member-role">Member</div>
-            <div class="member-affiliation">Bowling Green State University (USA)</div>
-        </div>
-    </div>
-
+  </div>
+{% endfor %}
 </div>
+
