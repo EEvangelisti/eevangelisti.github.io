@@ -1,14 +1,17 @@
 ---
 layout: home
-title: Accueil
+title: Oomycete Molecular Genetics Network (OMGN)
 ---
 
-Bienvenue sur le site de notre équipe.
+[About]({% link _pages/about.md %})
 
-## Thématique
-Interactions plantes–microorganismes, signalisation, imagerie.
+[Meetings]({% link _pages/meetings.md %})
 
-## Actualités
-- 17 fév. 2026 — Mise en ligne.
-- À venir — Page “Publications”.
+---
+
+*Connecting researchers. Advancing oomycete biology. Strengthening our community.*
+
+
+
+
 
