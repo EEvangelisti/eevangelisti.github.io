@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Meetings
+permalink: /meetings/
 ---
 
 OMGN organizes scientific meetings, workshops and focused symposia. The network

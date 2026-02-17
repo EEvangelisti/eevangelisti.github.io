@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 ## A community dedicated to molecular innovation in oomycetes
