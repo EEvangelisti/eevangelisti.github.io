@@ -5,17 +5,17 @@
 .committee-list { margin-top: 2rem; }
 
 .member {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .member img {
-  width: 130px;
-  height: 130px;
-  object-fit: cover;
-  border-radius: 6px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .member-info { line-height: 1.4; }
@@ -24,3 +24,6 @@
 .member-role { font-size: 0.95rem; color: #555; }
 .member-affiliation { font-size: 0.9rem; color: #777; }
 
+.meetings-page h3 {
+    margin-top: 2.5rem;
+}
