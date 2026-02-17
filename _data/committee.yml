@@ -10,18 +10,6 @@
   url: https://www.worcester.ac.uk/about/profiles/professor-mahmut-tor
   photo: MahmutTor.jpg
 
-- name: Jean RISTAINO
-  role: Member
-  affiliation: NC State University (USA)
-  url: https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/
-  photo: JeanRistaino.jpg
- 
-- name: Elodie GAULIN
-  role: Member
-  affiliation: Université de Toulouse (France)
-  url: https://lrsv.cnrs.fr/elodie-gaulin/
-  photo: ElodieGaulin.jpg
-
 - name: Wenbo MA
   role: Member
   affiliation: The Sainsbury Laboratory (United Kingdom)
@@ -58,10 +46,20 @@
   url: https://www.slcu.cam.ac.uk/people/sebastian-schornack
   photo: SebastianSchornack.jpg
 
+- name: Jean RISTAINO
+  role: <i>Ex officio</i> Member
+  affiliation: NC State University (USA)
+  url: https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/
+  photo: JeanRistaino.jpg
+ 
+- name: Elodie GAULIN
+  role: <i>Ex officio</i> Member
+  affiliation: Université de Toulouse (France)
+  url: https://lrsv.cnrs.fr/elodie-gaulin/
+  photo: ElodieGaulin.jpg
+
 - name: Paul Francis MORRIS
-  role: Member
+  role: Member, Financial management
   affiliation: Bowling Green State University (USA)
   url: https://www.bgsu.edu/arts-and-sciences/biological-sciences/faculty-and-staff/alphabetical-listing/paul-morris.html
   photo: PaulFrancisMorris.jpg
-
-
