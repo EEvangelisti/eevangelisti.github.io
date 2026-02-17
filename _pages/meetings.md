@@ -17,7 +17,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 </div>
 
 The 2025 session took place in Cologne (Germany) as a satellite event of the 20th Congress on Molecular Plant-Microbe Interactions.
-You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en)
+You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en) and the [abstract book](assets/meetings/abstract-books/OMGN-2025_abstract_book.pdf) (pdf).
 
 **Organizers:** Claire GACHON, Jeanne MIEBACH.
 
@@ -32,7 +32,8 @@ You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en)
 </div>
 
 The 2023 session took place in Lyon (France) as a satellite event of the 12th International Congress of Plant Pathology.
-You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite-events)
+It occurred together with the 7th International Oomycetes Workshop (IOW).
+You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite-events) and the [abstract book](assets/meetings/abstract-books/OMGN-2023_abstract_book.pdf) (pdf).
 
 **Organizers:**  Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
 
