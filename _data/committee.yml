@@ -1,14 +1,14 @@
-- name: Miaoying TIAN
-  role: Co-Chair
-  affiliation: University of Georgia (USA)
-  url: https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html
-  photo: MiaoyingTian.jpg
-
 - name: Mahmut TÖR
   role: Co-Chair
   affiliation: University of Worcester (United Kingdom)
   url: https://www.worcester.ac.uk/about/profiles/professor-mahmut-tor
   photo: MahmutTor.jpg
+
+- name: Miaoying TIAN
+  role: Co-Chair
+  affiliation: University of Georgia (USA)
+  url: https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html
+  photo: MiaoyingTian.jpg
 
 - name: Wenbo MA
   role: Member
