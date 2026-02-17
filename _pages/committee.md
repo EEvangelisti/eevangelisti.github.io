@@ -46,24 +46,34 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 - Sebastian Schornack, Sainsbury Laboratory Cambridge University (United Kingdom)
 - Paul Francis Morris, Bowling Green State University (USA)
 
+
 <div class="committee-list">
 
-<div class="member">
-    <img src="{{ site.baseurl }}/assets/images/steering/MiaoyingTian.jpg" alt="Miaoying Tian">
-    <div class="member-info">
-        <div class="member-name">Miaoying Tian</div>
-        <div class="member-role">Co-Chair</div>
-        <div class="member-affiliation">University of Georgia (USA)</div>
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/MiaoyingTian.jpg" alt="Miaoying Tian">
+        <div class="member-info">
+            <div class="member-name">Miaoying Tian</div>
+            <div class="member-role">Co-Chair</div>
+            <div class="member-affiliation">University of Georgia (USA)</div>
+        </div>
     </div>
-</div>
 
-<div class="member">
-    <img src="{{ site.baseurl }}/assets/images/steering/MahmutTor.jpg" alt="Mahmut Tor">
-    <div class="member-info">
-        <div class="member-name">Mahmut Tor</div>
-        <div class="member-role">Co-Chair</div>
-        <div class="member-affiliation">University of Worcester (United Kingdom)</div>
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/MahmutTor.jpg" alt="Mahmut Tor">
+        <div class="member-info">
+            <div class="member-name">Mahmut Tor</div>
+            <div class="member-role">Co-Chair</div>
+            <div class="member-affiliation">University of Worcester (United Kingdom)</div>
+        </div>
     </div>
-</div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/JeanRistaino.jpg" alt="Jean Ristaino">
+        <div class="member-info">
+            <div class="member-name">Jean Ristaino</div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">NC State University (USA)</div>
+        </div>
+    </div>
 
 </div>
