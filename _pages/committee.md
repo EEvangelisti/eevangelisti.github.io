@@ -46,20 +46,24 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 - Sebastian Schornack, Sainsbury Laboratory Cambridge University (United Kingdom)
 - Paul Francis Morris, Bowling Green State University (USA)
 
-<div class="committee-grid">
+<div class="committee-list">
 
-  <div class="member">
+<div class="member">
     <img src="{{ site.baseurl }}/assets/images/steering/MiaoyingTian.jpg" alt="Miaoying Tian">
-    <div class="member-name">Miaoying Tian</div>
-    <div class="member-role">Co-Chair</div>
-    <div class="member-affiliation">University of Georgia (USA)</div>
-  </div>
+    <div class="member-info">
+        <div class="member-name">Miaoying Tian</div>
+        <div class="member-role">Co-Chair</div>
+        <div class="member-affiliation">University of Georgia (USA)</div>
+    </div>
+</div>
 
-  <div class="member">
+<div class="member">
     <img src="{{ site.baseurl }}/assets/images/steering/MahmutTor.jpg" alt="Mahmut Tor">
-    <div class="member-name">Mahmut Tor</div>
-    <div class="member-role">Co-Chair</div>
-    <div class="member-affiliation">University of Worcester (United Kingdom)</div>
-  </div>
+    <div class="member-info">
+        <div class="member-name">Mahmut Tor</div>
+        <div class="member-role">Co-Chair</div>
+        <div class="member-affiliation">University of Worcester (United Kingdom)</div>
+    </div>
+</div>
 
 </div>
