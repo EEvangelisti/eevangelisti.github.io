@@ -1,4 +1,5 @@
 title: OMGN website
 description: Oomycete Molecular Genetics Network website
 theme: minima
-
+baseurl: "/omgn.github.io"
+url: "https://eevangelisti.github.io"
