@@ -9,8 +9,7 @@ to translational plant protection strategies.
 
 |**Year**|**City**|**Country**|
 |-|-|-|
-|2019|Oban|United Kingdom|
-|2022|Brno|Czech Republic|
 |2025|Cologne|Germany|
-
-
+|2023|Lyon|France|
+|2022|Brno|Czech Republic|
+|2019|Oban|United Kingdom|
