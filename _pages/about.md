@@ -15,3 +15,10 @@ comparatively understudied relative to fungi.
 
 OMGN was created to foster exchange, collaboration and methodological innovation
 within the oomycete research community.
+
+### Our objectives
+
+- Promote advances in molecular genetics and functional genomics  
+- Encourage the development and sharing of tools and resources  
+- Support early-career researchers  
+- Facilitate international collaboration  
