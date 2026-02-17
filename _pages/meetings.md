@@ -67,5 +67,8 @@ The 2019 session took place in Oban (United Kingdom), at the Scottish Associatio
 ## Previous meetings
 
 |**Date**|**Location**|**Country**|
-|2018, July 14-17|Malmo|Sweden|
-|2017, March 11-14|Asilomar Conference Grounds|USA|
+|2018, July 14-17|Malmö|Sweden|
+|2017, March 11-14|Asilomar Conference Grounds|California, USA|
+|2014, July 2-4|Norwich|United Kingdom|
+|2013|Asilomar Conference Grounds|California, USA|
+|2012|Nanjing|China|
