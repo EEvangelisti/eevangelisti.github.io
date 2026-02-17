@@ -34,19 +34,6 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 
 ## Current OMGN-SC members
 
-- Miaoying Tian, *co-chair*, University of Georgia (USA)
-- Mahmut Tor, *co-chair*, University of Worcester (United Kingdom)
-- Jean Ristaino, NC State University (USA)
-- Elodie Gaulin, Université de Toulouse (France)
-- Wenbo Ma, The Sainsbury Laboratory (United Kingdom)
-- Claire Gachon, Muséum National d'Histoire Naturelle (France)
-- Erica Goss, University of Florida (USA)
-- Suomeng Dong, Nanjing Agricultural University (China)
-- Edouard Evangelisti, Université Côte d'Azur (France)
-- Sebastian Schornack, Sainsbury Laboratory Cambridge University (United Kingdom)
-- Paul Francis Morris, Bowling Green State University (USA)
-
-
 <div class="committee-list">
 
     <div class="member">
@@ -94,5 +81,58 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
         </div>
     </div>
 
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/ClaireGachon.jpg" alt="Claire Gachon">
+        <div class="member-info">
+            <div class="member-name"><a href="https://www.tsl.ac.uk/about/people/wenbo-ma" target="_blank" rel="noopener">Claire Gachon</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">Muséum National d'Histoire Naturelle (France)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/EricaGoss.jpg" alt="Erica Goss">
+        <div class="member-info">
+            <div class="member-name"><a href="https://plantpath.ifas.ufl.edu/people/faculty-pages/erica-goss/" target="_blank" rel="noopener">Erica Goss</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">University of Florida (USA)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/SuomengDong.jpg" alt="Suomeng Dong">
+        <div class="member-info">
+            <div class="member-name"><a href="https://plant-en.njau.edu.cn/info/1009/1140.htm" target="_blank" rel="noopener">Suomeng Dong</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">Muséum National d'Histoire Naturelle (France)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/EdouardEvangelisti.jpg" alt="Edouard Evangelisti">
+        <div class="member-info">
+            <div class="member-name"><a href="https://institut-sophia-agrobiotech.paca.hub.inrae.fr/equipes-isa/ipo/membres-de-l-equipe/evangelisti-edouard" target="_blank" rel="noopener">Edouard Evangelisti</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">Université Côte d'Azur (France)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/SebastianSchornack.jpg" alt="Sebastian Schornack">
+        <div class="member-info">
+            <div class="member-name"><a href="https://www.slcu.cam.ac.uk/people/sebastian-schornack" target="_blank" rel="noopener">Sebastian Schornack</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">Sainsbury Laboratory Cambridge University (United Kingdom)</div>
+        </div>
+    </div>
+
+    <div class="member">
+        <img src="{{ site.baseurl }}/assets/images/steering/PaulFrancisMorris.jpg" alt="Paul Francis Morris">
+        <div class="member-info">
+            <div class="member-name"><a href="https://www.bgsu.edu/arts-and-sciences/biological-sciences/faculty-and-staff/alphabetical-listing/paul-morris.html" target="_blank" rel="noopener">Paul Francis Morris</a></div>
+            <div class="member-role">Member</div>
+            <div class="member-affiliation">Bowling Green State University (USA)</div>
+        </div>
+    </div>
 
 </div>
