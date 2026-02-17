@@ -3,6 +3,36 @@
 
 @import "minima";
 
-.page-heading {
+/* Steering committee grid */
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.member {
   text-align: center;
+}
+
+.member img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;   /* léger arrondi élégant */
+}
+
+.member-name {
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+
+.member-role {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.member-affiliation {
+  font-size: 0.9rem;
+  color: #666;
 }
