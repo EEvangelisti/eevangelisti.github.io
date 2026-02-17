@@ -3,5 +3,15 @@ layout: page
 title: About
 ---
 
-OMGN is a research network fostering collaboration and tool sharing in oomycete molecular genetics.
+## A community dedicated to molecular innovation in oomycetes
 
+The **Oomycete Molecular Genetics Network (OMGN)** brings together researchers 
+working on the molecular, cellular and genetic foundations of oomycete biology.
+
+Oomycetes are filamentous eukaryotes that include some of the most devastating 
+plant pathogens affecting global food security and ecosystem resilience. 
+Despite their agronomic importance, their molecular mechanisms remain 
+comparatively understudied relative to fungi.
+
+OMGN was created to foster exchange, collaboration and methodological innovation
+within the oomycete research community.
