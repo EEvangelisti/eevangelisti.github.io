@@ -93,7 +93,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
     <div class="member">
         <img src="{{ site.baseurl }}/assets/images/steering/EricaGoss.jpg" alt="Erica Goss">
         <div class="member-info">
-            <div class="member-name"><a href="https://plantpath.ifas.ufl.edu/people/faculty-pages/erica-goss/" target="_blank" rel="noopener">Erica Goss</a></div>
+            <div class="member-name"><a href="https://plantpath.ifas.ufl.edu/people/faculty-pages/erica-goss/" target="_blank" rel="noopener">Erica GOSS</a></div>
             <div class="member-role">Member</div>
             <div class="member-affiliation">University of Florida (USA)</div>
         </div>
