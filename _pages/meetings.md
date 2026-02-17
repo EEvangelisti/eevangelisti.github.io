@@ -5,9 +5,7 @@ title: Meetings
 
 The OMGN network aims to provide a platform for discussion ranging from fundamental cell biology to translational plant protection strategies.
 
-## Upcoming meeting
-
-Discussions ongoing.
+<span style="color: firebrick;">Discussions are currently ongoing regarding the upcoming meeting.</span>
 
 
 ## Past meetings
