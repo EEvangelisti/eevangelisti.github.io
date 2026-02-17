@@ -68,7 +68,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
         <div class="member-info">
             <div class="member-name"><a href="https://lrsv.cnrs.fr/elodie-gaulin/" target="_blank" rel="noopener">Elodie GAULIN</a></div>
             <div class="member-role">Member</div>
-            <div class="member-affiliation">NC State University (USA)</div>
+            <div class="member-affiliation">Université de Toulouse (France)</div>
         </div>
     </div>
 
