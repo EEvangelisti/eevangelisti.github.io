@@ -3,6 +3,12 @@ layout: home
 title: Oomycete Molecular Genetics Network (OMGN)
 ---
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="{{ site.baseurl }}/assets/images/cover/OMGN2025.jpg"
+       alt="OMGN Community"
+       style="max-width:900px; width:100%; height:auto;">
+</div>
+
 The **Oomycete Molecular Genetics Network (OMGN)** brings together researchers 
 working on the molecular, cellular and genetic foundations of oomycete biology.
 
