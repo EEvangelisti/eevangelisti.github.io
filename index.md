@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Oomycete Molecular Genetics Network (OMGN)
 ---
-
-# Oomycete Molecular Genetics Network (OMGN)
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="{{ site.baseurl }}/assets/images/cover/OMGN2025.jpg"
