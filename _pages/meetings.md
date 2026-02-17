@@ -16,8 +16,10 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
        style="max-width:500px; width:100%; height:auto;">
 </div>
 
-Cologne (Germany). [Meeting webpage](https://omgn2025.sciencesconf.org/?lang=en)
-Organizers: Claire GACHON, Jeanne MIEBACH.
+The 2025 session took place in Cologne (Germany) as a satellite event of the 20th Congress on Molecular Plant-Microbe Interactions.
+You can check the [meeting webpage](https://omgn2025.sciencesconf.org/?lang=en)
+
+**Organizers:** Claire GACHON, Jeanne MIEBACH.
 
 
 
@@ -29,8 +31,10 @@ Organizers: Claire GACHON, Jeanne MIEBACH.
        style="max-width:500px; width:100%; height:auto;">
 </div>
 
-Lyon (France). [Meeting webpage](https://www.icpp2023.org/programme/satellite-events)
-Organizers: Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
+The 2023 session took place in Lyon (France) as a satellite event of the 12th International Congress of Plant Pathology.
+You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite-events)
+
+**Organizers:**  Laurent CAMBORDE, Bernard DUMAS, Elodie GAULIN, Gloria ABAD.
 
 
 ## Previous meetings
