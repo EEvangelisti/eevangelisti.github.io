@@ -29,18 +29,12 @@
   margin: 3rem 0;
 }
 
-.group-picture {
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 10px;
-  border: 1px solid #eee;
-  overflow: hidden;
-}
-
 .group-picture img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 10px;
+  border: 1px solid #eee;
 }
 
 .meeting-title {
