@@ -39,12 +39,12 @@ Discussions ongoing.
 
     <div class="meeting-links">
       {% if m.website %}
-        <a href="{{ m.website }}" target="_blank" rel="noopener">Website</a>
+        You can check the <a href="{{ m.website }}" target="_blank" rel="noopener">meeting website</a>
       {% endif %}
 
-      {% if m.abstract_book %}
+      {% if m.abstract-book %}
         ·
-        <a href="{{ site.baseurl }}/assets/abstract-books/{{ m.abstract_book }}">
+        <a href="{{ site.baseurl }}/assets/abstract-books/{{ m.abstract-book }}">
           Abstract book (PDF)
         </a>
       {% endif %}
