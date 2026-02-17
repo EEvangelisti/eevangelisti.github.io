@@ -8,8 +8,6 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
 ## Recent meetings
 
-<div class="meetings-page">
-
 ### OMGN 2025 (July 12)
 
 <div style="text-align:center; margin: 2rem 0;">
@@ -65,8 +63,6 @@ You can check the [meeting webpage](http://www.phytophthora.org/omgn-2022/) and 
 The 2019 session took place in Oban (United Kingdom), at the Scottish Association for Marine Science (SAAS).
 
 **Local organizers:** Claire GACHON.
-
-</div>
 
 ## Previous meetings
 
