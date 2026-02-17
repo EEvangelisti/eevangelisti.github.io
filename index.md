@@ -3,7 +3,7 @@ layout: home
 title: Oomycete Molecular Genetics Network (OMGN)
 ---
 
-[About](/about/)
+[About]({{ site.baseurl }}/about/)
 
 [Meetings](/meetings/)
 
