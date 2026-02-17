@@ -1,4 +1,8 @@
 title: OMGN website
 description: Oomycete Molecular Genetics Network website
 theme: minima
+collections:
+  pages:
+    output: true
+    permalink: /:name/
 
