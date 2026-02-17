@@ -47,6 +47,9 @@ You can check the [meeting webpage](https://www.icpp2023.org/programme/satellite
 </div>
 
 The 2022 session took place in Brno (Czech Republic), at the Mendel University.
+You can check the [meeting webpage](http://www.phytophthora.org/omgn-2022/) and the [abstract book]({{ site.baseurl }}/assets/meetings/abstract-books/OMGN-2022_abstract_book.pdf) (pdf).
+
+**Organizers:** Thomas JUNG, the *Phytophthora* Research Centre at Mendel University.
 
 
 ### OMGN 2019 (July 10-13)
