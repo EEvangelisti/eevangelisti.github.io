@@ -44,7 +44,7 @@ Discussions ongoing.
 
       {% if m.abstract-book %}
         ·
-        <a href="{{ site.baseurl }}/assets/abstract-books/{{ m.abstract-book }}">
+        <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract-book }}">
           Abstract book (PDF)
         </a>
       {% endif %}
