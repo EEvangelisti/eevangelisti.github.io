@@ -15,6 +15,7 @@
     width: 130px;
     height: 130px;
     object-fit: cover;
+    border: 1px solid #eee;
     border-radius: 6px;
 }
 
@@ -22,4 +23,43 @@
 .member-name { font-weight: 600; font-size: 1.1rem; }
 .member-role { font-size: 0.95rem; color: #555; }
 .member-affiliation { font-size: 0.9rem; color: #777; }
+
+.meeting {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.group-picture {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.group-picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.meeting-title {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.meeting-discussion {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.meeting-links {
+  margin-top: 0.6rem;
+}
+
 
