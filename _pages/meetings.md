@@ -14,7 +14,7 @@ Discussions ongoing.
 
 <div class="meetings-page">
 
-{% assign sorted = site.data.meetings | sort: "year" | reverse %}
+{% assign sorted = site.data.omgn-meetings | sort: "year" | reverse %}
 
 {% for m in sorted %}
 
