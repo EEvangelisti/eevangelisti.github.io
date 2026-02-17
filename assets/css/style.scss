@@ -3,36 +3,39 @@
 
 @import "minima";
 
-/* Steering committee grid */
-.committee-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 2rem;
+.committee-list {
   margin-top: 2rem;
 }
 
 .member {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .member img {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
-  border-radius: 8px;   /* léger arrondi élégant */
+  border-radius: 6px;
+}
+
+.member-info {
+  line-height: 1.4;
 }
 
 .member-name {
   font-weight: 600;
-  margin-top: 0.6rem;
+  font-size: 1.1rem;
 }
 
 .member-role {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 0.95rem;
+  color: #555;
 }
 
 .member-affiliation {
   font-size: 0.9rem;
-  color: #666;
+  color: #777;
 }
