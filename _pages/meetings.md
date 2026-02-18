@@ -8,7 +8,6 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 <span style="color: firebrick;"><b>Update (February 2026): Discussions are currently ongoing regarding the next OMGN meeting. Stay tuned!</b></span>
 
 
-## Past meetings
 
 <div class="meetings-page">
 
