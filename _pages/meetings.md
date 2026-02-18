@@ -58,10 +58,53 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
 ## Older meetings
 
-|**Date**|**Location**|**Country**|
-|2019, July 10-13|Oban|United Kingdom|
-|2018, July 14-17|Malmö|Sweden|
-|2017, March 11-14|Asilomar Conference Grounds|California, USA|
-|2014, July 2-4|Norwich|United Kingdom|
-|2013|Asilomar Conference Grounds|California, USA|
-|2012|Nanjing|China|
+<table class="meetings-table">
+
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Date</th>
+      <th>Location</th>
+      <th>Country</th>
+      <th>Abstract book</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign sorted = site.data.old-omgn-meetings | sort: "year" | reverse %}
+
+  {% for m in sorted %}
+    <tr>
+      <td>{{ m.year }}</td>
+
+      <td>
+        {% if m.date %}
+          {{ m.date }}
+        {% else %}
+          —
+        {% endif %}
+      </td>
+
+      <td>{{ m.location }}</td>
+
+      <td>{{ m.country }}</td>
+
+      <td>
+        {% if m["abstract-book"] %}
+          <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m["abstract-book"] }}">
+            PDF
+          </a>
+        {% else %}
+          —
+        {% endif %}
+      </td>
+
+    </tr>
+  {% endfor %}
+
+  </tbody>
+
+</table>
+
+
