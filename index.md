@@ -4,9 +4,9 @@ title: Oomycete Molecular Genetics Network
 ---
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="{{ site.baseurl }}/assets/meetings/group-pictures/OMGN-2025.jpg"
-       alt="OMGN Community"
-       style="max-width:900px; width:100%; height:auto;">
+  <img src="{{ site.baseurl }}/assets/images/logo/logo-large.jpg"
+       alt="Oomycete Molecular Genetics Network (OMGN)"
+       style="max-width:500px; width:100%; height:auto;">
 </div>
 
 The **Oomycete Molecular Genetics Network (OMGN)** brings together researchers 
