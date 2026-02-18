@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Oomycete Molecular Genetics Network
 ---
 
 <div style="text-align:center; margin: 2rem 0;">
