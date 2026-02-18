@@ -65,7 +65,6 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
       <th>Year</th>
       <th>Date</th>
       <th>Location</th>
-      <th>Country</th>
       <th>Abstract book</th>
     </tr>
   </thead>
@@ -86,9 +85,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
         {% endif %}
       </td>
 
-      <td>{{ m.location }}</td>
-
-      <td>{{ m.country }}</td>
+      <td>{{ m.location }} ({{ m.country }})</td>
 
       <td>
         {% if m["abstract-book"] %}
