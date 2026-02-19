@@ -38,8 +38,10 @@
   country: USA
 
 - year: 2012
-  location: NA
-  country: NA
+  date: May 26-28
+  location: Nanjing
+  country: China
+  abstract-book: OMGN-2012_abstract_book.pdf
 
 - year: 2011
   date: March 13-15
@@ -48,8 +50,10 @@
   abstract-book: OMGN-2011_abstract_book.pdf
 
 - year: 2010
-  location: NA
-  country: NA
+  date: June 6-8
+  location: Médiathèque José Cabanis, Toulouse
+  country: France
+  abstract-book: OMGN-2010_abstract_book.pdf
 
 - year: 2009
   date: March 15-17
