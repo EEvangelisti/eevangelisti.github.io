@@ -81,11 +81,11 @@ Ensure chronological order is preserved.
 
 ---
 
-# Abstract Book Preparation (Mandatory)
+## Abstract Book Preparation (Mandatory)
 
 Before uploading any abstract book:
 
-## A. Remove All Annotations
+### A. Remove All Annotations
 
 Many PDFs contain:
 - Personal comments
@@ -103,7 +103,7 @@ If necessary:
 
 ---
 
-## B. Use Controlled Compression
+### B. Use Controlled Compression
 
 All abstract books must be compressed using:
 
@@ -121,7 +121,7 @@ Do **not** use extreme compression.
 
 ---
 
-# Final Checklist Before Commit
+## Final Checklist Before Commit
 
 - [ ] YAML syntax validated  
 - [ ] Only 3 meetings in `omgn-meetings.yml`  
