@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="{{ site.baseurl }}/assets/images/logo/logo.jpg"
+  <img src="{{ site.baseurl }}/assets/images/logo/logo.png"
        alt="Oomycete Molecular Genetics Network (OMGN)"
        style="max-width:500px; width:100%; height:auto;">
 </div>
