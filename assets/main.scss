@@ -2,7 +2,8 @@
 ---
 @import "minima";
 
-.home .page-title {
+/* Hide page title (we keep it in index.md for SEO). */
+.home .page-heading {
   display: none;
 }
 
