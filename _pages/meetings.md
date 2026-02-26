@@ -62,7 +62,6 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
   <thead>
     <tr>
-      <th>Year</th>
       <th>Date</th>
       <th>Location</th>
       <th>Abstract book</th>
@@ -75,11 +74,10 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
   {% for m in sorted %}
     <tr>
-      <td>{{ m.year }}</td>
 
       <td>
         {% if m.date %}
-          {{ m.date }}
+          {{ m.date }}, {{ m.year }}
         {% else %}
           —
         {% endif %}
