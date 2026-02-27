@@ -15,7 +15,7 @@
   group_picture: OMGN-2018.jpg
 
 - year: 2017
-  date: March 11-14
+  date: Mar. 11-14
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2017_abstract_book.pdf
@@ -29,7 +29,7 @@
   group_picture: OMGN-2016.jpg
 
 - year: 2015
-  date: March 14-17
+  date: Mar. 14-17
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2015_abstract_book.pdf
@@ -43,7 +43,7 @@
   group_picture: OMGN-2014.jpg
 
 - year: 2013
-  date: March 9-12
+  date: Mar. 9-12
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2013_abstract_book.pdf
@@ -57,7 +57,7 @@
   group_picture: OMGN-2012.jpg
 
 - year: 2011
-  date: March 13-15
+  date: Mar. 13-15
   location:  Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2011_abstract_book.pdf
@@ -70,7 +70,7 @@
   abstract_book: OMGN-2010_abstract_book.pdf
 
 - year: 2009
-  date: March 15-17
+  date: Mar. 15-17
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2009_abstract_book.pdf
@@ -83,7 +83,7 @@
   abstract_book: OMGN-2008_abstract_book.pdf
 
 - year: 2007
-  date: March 23
+  date: Mar. 23
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2007_abstract_book.pdf
@@ -97,7 +97,7 @@
   group_picture: OMGN-2006.jpg
 
 - year: 2005
-  date: March 13-15
+  date: Mar. 13-15
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2005_abstract_book.pdf
@@ -109,10 +109,16 @@
   abstract_book: OMGN-2004_abstract_book.pdf
 
 - year: 2003
-  date: March 16-18
+  date: Mar. 16-18
   location: Asilomar Conference Grounds, California
   country: USA
   abstract_book: OMGN-2003_abstract_book.pdf
+
+- year: 2002
+  date: Aug. 1-2
+  location: Hyatt Regency Milwaukee, Wisconsin
+  country: USA
+  abstract_book: OMGN-2002_abstract_book.pdf
 
 - year: 2001
   date: July 16-17
@@ -122,13 +128,13 @@
   group_picture: OMGN-2001-1.jpg
 
 - year: 1999
-  date: November 13-14
+  date: Nov. 13-14
   location: OARDC, Wooster, Ohio
   country: USA
   abstract_book: OMGN-1999_abstract_book.pdf
 
 - year: 1998
-  date: August 15
+  date: Aug. 15
   location: Heriot-Watt University, Edinburgh
   country: United Kingdom
   abstract_book: OMGN-1998_abstract_book.pdf
