@@ -65,12 +65,16 @@
   abstract-book: OMGN-2009_abstract_book.pdf
 
 - year: 2008
-  location: NA
-  country: NA
+  date: May 6-8
+  location: Birnam, Perthshire, Scotland
+  country: United Kingdom
+  abstract-book: OMGN-2008_abstract_book.pdf
 
 - year: 2007
-  location: NA
-  country: NA
+  date: March 23
+  location: Asilomar Conference Grounds, California
+  country: USA
+  abstract-book: OMGN-2007_abstract_book.pdf
 
 - year: 2006
   date: May 4-7
@@ -89,3 +93,15 @@
   location: Ambassador Hotel, New Orleans, Louisiana
   country: USA
   abstract-book: OMGN-2004_abstract_book.pdf
+
+- year: 2003
+  date: March 16-18
+  location: Asilomar Conference Grounds, California
+  country: USA
+  abstract-book: OMGN-2003_abstract_book.pdf
+
+- year: 2001
+  date: July 16-17
+  location: OARDC, Wooster, Ohio
+  country: USA
+  abstract-book: OMGN-2001_abstract_book.pdf
