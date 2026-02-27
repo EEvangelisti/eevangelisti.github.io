@@ -42,10 +42,14 @@
   border: 1px solid #eee;
 }
 
+.icon-cell {
+  text-align: center;
+}
+
 .icon img {
   width: 30px;
-  height: 30px;
-  display: block;
+  height: auto;
+  vertical-align: middle;
 }
 
 .meeting-title {
