@@ -35,12 +35,6 @@
 }
 
 .group-picture img {
-  width: 30;
-  height: 30;
-  display: block;
-}
-
-.icon img {
   width: 100%;
   height: auto;
   display: block;
@@ -48,6 +42,11 @@
   border: 1px solid #eee;
 }
 
+.icon img {
+  width: 30;
+  height: 30;
+  display: block;
+}
 
 .meeting-title {
   margin-top: 1rem;
