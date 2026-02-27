@@ -64,7 +64,8 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
     <tr>
       <th>Date</th>
       <th>Location</th>
-      <th>Abstract book</th>
+      <th>Book</th>
+      <th>Photo</th>
     </tr>
   </thead>
 
@@ -86,9 +87,19 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
       <td>{{ m.location }} ({{ m.country }})</td>
 
       <td>
-        {% if m["abstract-book"] %}
-          <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m["abstract-book"] }}" target="_blank" rel="noopener">
+        {% if m.abstract_book %}
+          <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract_book }}" target="_blank" rel="noopener">
            <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" width="30" height="30" alt="PDF">
+          </a>
+        {% else %}
+          —
+        {% endif %}
+      </td>
+
+      <td>
+        {% if m.group_picture %}
+          <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
+           <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" width="30" height="30" alt="JPG">
           </a>
         {% else %}
           —
