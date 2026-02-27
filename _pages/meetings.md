@@ -89,7 +89,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
       <td class="icon-cell">
         {% if m.abstract_book %}
           <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract_book }}" target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" alt="PDF" class="icon">
+            <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" alt="PDF" class="icon" title="Open the abstract book (PDF)">
           </a>
         {% else %}
           —
@@ -99,7 +99,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
       <td class="icon-cell">
         {% if m.group_picture %}
           <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" alt="JPG" class="icon">
+            <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" alt="JPG" class="icon"  title="View the group photo">
           </a>
         {% else %}
           —
