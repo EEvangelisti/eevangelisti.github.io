@@ -77,7 +77,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
       <td>
         {% if m.date %}
-          {{ m.date }}, {{ m.year }}
+          {{ m.date }}, <b>{{ m.year }}</b>
         {% else %}
           —
         {% endif %}
