@@ -120,3 +120,16 @@
   country: USA
   abstract_book: OMGN-2001_abstract_book.pdf
   group_picture: OMGN-2001-1.jpg
+
+- year: 1999
+  date: November 13-14
+  location: OARDC, Wooster, Ohio
+  country: USA
+  abstract_book: OMGN-1999_abstract_book.pdf
+
+- year: 1998
+  date: August 15
+  location: Heriot-Watt University, Edinburgh
+  country: United Kingdom
+  abstract_book: OMGN-1998_abstract_book.pdf
+
