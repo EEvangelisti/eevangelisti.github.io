@@ -58,6 +58,10 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
 ## Older meetings
 
+This archive highlights our previous gatherings, reflecting the breadth of 
+scientific exchange and collaboration fostered by the OMGN community. We 
+gratefully acknowledge everyone who helped make these meetings a success.
+
 <table class="meetings-table">
 
   <thead>
