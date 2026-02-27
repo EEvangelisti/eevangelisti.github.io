@@ -102,7 +102,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
         {% if m.group_picture %}
           <div class="icon">
             <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
-              <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" width="30" height="30" alt="JPG">
+              <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" alt="JPG">
             </a>
           </div>
         {% else %}
