@@ -88,7 +88,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
       <td>
         {% if m["abstract-book"] %}
           <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m["abstract-book"] }}" target="_blank" rel="noopener">
-            PDF
+           <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" width="30" height="30" alt="PDF">
           </a>
         {% else %}
           —
