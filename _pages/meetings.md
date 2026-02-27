@@ -60,7 +60,8 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
 This archive highlights our previous gatherings, reflecting the breadth of 
 scientific exchange and collaboration fostered by the OMGN community. We 
-gratefully acknowledge everyone who helped make these meetings a success.
+gratefully acknowledge everyone who helped make these meetings a success, and 
+extend our sincere thanks to all our sponsors.
 
 <table class="meetings-table">
 
