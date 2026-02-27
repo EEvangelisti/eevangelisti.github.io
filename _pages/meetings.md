@@ -86,7 +86,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
       <td>{{ m.location }} ({{ m.country }})</td>
 
-      <td text-align:center>
+      <td style="text-align:center;">
         {% if m.abstract_book %}
           <div class="icon">
             <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract_book }}" target="_blank" rel="noopener">
@@ -98,7 +98,7 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
         {% endif %}
       </td>
 
-      <td text-align:center>
+      <td style="text-align:center;">
         {% if m.group_picture %}
           <div class="icon">
             <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
