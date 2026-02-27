@@ -86,21 +86,25 @@ The OMGN network aims to provide a platform for discussion ranging from fundamen
 
       <td>{{ m.location }} ({{ m.country }})</td>
 
-      <td>
+      <td text-align:center>
         {% if m.abstract_book %}
-          <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract_book }}" target="_blank" rel="noopener">
-           <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" width="30" height="30" alt="PDF">
-          </a>
+          <div class="icon">
+            <a href="{{ site.baseurl }}/assets/meetings/abstract-books/{{ m.abstract_book }}" target="_blank" rel="noopener">
+              <img src="{{ site.baseurl }}/assets/images/icons/book_3725.png" alt="PDF">
+            </a>
+          </div>
         {% else %}
           —
         {% endif %}
       </td>
 
-      <td>
+      <td text-align:center>
         {% if m.group_picture %}
-          <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
-           <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" width="30" height="30" alt="JPG">
-          </a>
+          <div class="icon">
+            <a href="{{ site.baseurl }}/assets/meetings/group-pictures/{{ m.group_picture }}" target="_blank" rel="noopener">
+              <img src="{{ site.baseurl }}/assets/images/icons/photocamera_83746.png" width="30" height="30" alt="JPG">
+            </a>
+          </div>
         {% else %}
           —
         {% endif %}
