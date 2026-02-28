@@ -87,3 +87,15 @@
   margin-top: 0.2rem;
 }
 
+.info-box {
+  background: #dbeafe;
+  border: 2px solid #1e40af;
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: #0f172a;
+  line-height: 1.35;
+  max-width: 60ch;
+
+  // Optionnel
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
