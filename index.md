@@ -27,8 +27,6 @@ within the oomycete research community.
 - Support early-career researchers  
 - Facilitate international collaboration  
 
----
-
 <br>
 
 <div class="info-box">
