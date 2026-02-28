@@ -29,11 +29,15 @@ within the oomycete research community.
 
 ---
 
+<br>
+
 <div class="info-box">
 <span style="color: firebrick;"><b>February 2026: The OMGN Steering Committee (SC) is soliciting nominations to fill four SC member positions.</b></span> More information on roles of OMGN SC and a current list of SC members can be found <a href="{{ site.baseurl }}/committee" target="_blank" rel="noopener">here</a>. Self-nominations are welcome. Please submit one nomination per form. Nominations will be reviewed by the current Steering Committee and used to assemble a balanced slate (career stage, geography, research areas, etc) for voting. Please submit your nominations by <b>March 11, 2026</b> using the link below:
 
 <p style="text-align: center"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HmwhqGNNUkOMO1D6HxR1sXjxC4XIJzZKletlr31P9mFUQk81TTY0NlVaMUQ4R0xUU0hEN0xWQjFNNC4u&wdLOR=cD378959B-7CAE-C749-9A60-48E6FEBC5AD1" target="_blank" rel="noopener">OMGN Steering Committee Member Nomination – Fill out form</a></p>
 </div>
+
+<br>
 
 ---
 *Connecting researchers. Advancing oomycete biology. Strengthening our community.*
