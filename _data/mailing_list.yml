@@ -1,0 +1,479 @@
+# OMGN Mailing List
+# Last updated: 2026-03-24
+
+# AUSTRALIA --------------------------------------------------------------------
+- name: "Kharel, Aayushree"
+  affiliation_main: "Deakin University"
+  country: "Australia"
+
+# BELGIUM ----------------------------------------------------------------------
+- name: "Csukai, Michael"
+  affiliation_main: "Biotalys"
+  country: "Belgium"
+
+- name: "Kumpf, Robert"
+  affiliation_main: "University of Gent"
+  affiliation_dept: "Departement of Plant Systems Biology"
+  country: "Belgium"
+
+# BRAZIL -----------------------------------------------------------------------
+- name: "Mizubuti, Eduardo S. G."
+  affiliation_main: "Universidade Federal de Viçosa"
+  country: "Brazil"
+
+# CHILE ------------------------------------------------------------------------
+- name: "Gonzalez Arriagada, Mariela"
+  affiliation_main: "Universidad de O’Higgins"
+  country: "Chile"
+
+- name: "Murúa, Pedro"
+  affiliation_main: "Instituto de Acuicultura y Medio Ambiente"
+  country: "Chile"
+
+# CHINA ------------------------------------------------------------------------
+- name: "Cai, Meng"
+  affiliation_main: "Central China Normal University"
+  country: "China"
+
+- name: "Chen, Fengping"
+  affiliation_main: "Fujian Agriculture and Forestry University"
+  country: "China"
+
+- name: "Chen, Qinghe"
+  affiliation_main: "Hainan University"
+  country: "China"
+
+- name: "Daly, Paul"
+  affiliation_main: "Jiangsu Academy of Agricultural Sciences"
+  country: "China"
+
+- name: "Dou, Daolong"
+  affiliation_main: "Nanjing Agricutural University"
+  country: "China"
+
+- name: "Du, Yu"
+  affiliation_main: "Northwest A&F University"
+  country: "China"
+
+- name: "Gu, Biao"
+  affiliation_main: "Northwest A&F University"
+  country: "China"
+
+- name: "Imran, Muhammad"
+  affiliation_main: "Henan University of Technology"
+  country: "China"
+
+- name: "Jing, Maofeng"
+  affiliation_main: "Nanjing Agricultural University"
+  country: "China"
+
+- name: "Kong, Liang"
+  affiliation_main: "Nanjing Agricultural University"
+  country: "China"
+
+- name: "Li, Wenxiu"
+  affiliation_main: "Shandong Agricutural University"
+  country: "China"
+
+- name: "Ma, Zhenchuan"
+  affiliation_main: "Nanjing Agricultural University"
+  country: "China"
+
+- name: "Qiu, Min"
+  affiliation_main: "Nanjing Agricultural University"
+  country: "China"
+
+- name: "Sheng, Hui"
+  affiliation_main: "Shandong Agricultural University"
+  country: "China"
+
+- name: "Wang, Liyuan"
+  affiliation_main: "Shanghai Jiaotong University"
+  country: "China"
+
+- name: "Wang, Qunqing"
+  affiliation_main: "Shandong Agricultural University"
+  country "China"
+
+- name: "Wang, Xiaodan"
+  affiliation_main: "China Agricultural University"
+  affiliation_dept: "College of Plant Protection"
+  country: "China"
+
+- name: "Wang, Yuanchao"
+  affiliation_main: "Nanjing Agriculture University"
+  country: "China"
+
+- name: "Xi, Pinggen"
+  affiliation_main: "South China Agricultural University"
+  country: "China"
+
+- name: "Xu, Jiayun"
+  affiliation_main: "Shanghai Normal University"
+  country: "China"
+
+- name: "Ye, Wenwu"
+  affiliation_main: "Nanjing Agricultural University"
+  country: "China"
+
+- name: "Zhao, Zhijian"
+  affiliation_main: "Yunnan Academy of Agricultural Sciences"
+  affiliation_dept: "Industrial Crops Institute"
+  country: "China"
+
+# CZECH REPUBLIC ---------------------------------------------------------------
+- name: "Botella Sánchez"
+  affiliation_main: "Mendel University in Brno"
+  country: "Czech Republic"
+
+- name: "Horta Jung, Marília"
+  affiliation_main: "Mendel University in Brno"
+  affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
+  country: "Czech Republic"
+
+- name: "Jung, Thomas"
+  affiliation_main: "Mendel University in Brno"
+  affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
+  country: "Czech Republic"
+
+- name: "Nagy, Zoltán"
+  affiliation_main: "Mendel University in Brno"
+  affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
+  country: "Czech Republic"
+
+# FRANCE -----------------------------------------------------------------------
+- name: "Badis, Yacine"
+  affiliation_main: "Sorbonne Université"
+  affiliation_dept: "Laboratoire de Biologie Intégrative des Modèles Marins"
+  country: "France"
+
+- name: "Evangelisti, Edouard"
+  affiliation_main: "Université Côte d'Azur"
+  affiliation_dept: "Institut Sophia Agrobiotech"
+  country: "France"
+
+- name: "Gachon, Claire"
+  affiliation_main: "Muséum National d'Histoire Naturelle"
+  country: "France"
+
+- name: "Gaulin, Elodie"
+  affiliation_main: "Laboratoire de Recherche en Sciences Végétales"
+  affiliation_dept: "LRSV UMR5546 CNRS-Université de Toulouse"
+  country: "France"
+
+- name: "Jacquet, Christophe"
+  affiliation_main: "Toulouse University"
+  country: "France"
+
+- name: "Kostareli, Maria-Myrto"
+  affiliation_main: "Université Côte d'Azur"
+  affiliation_dept: "Institut Sophia Agrobiotech"
+  country: "France"
+  
+- name: "Miebach, Jeanne"
+  affiliation_main: "Muséum National d'Histoire Naturelle"
+  country: "France"
+
+- name: "Pluis, Max"
+  affiliation_main: "Université Côte d'Azur"
+  affiliation_dept: "Institut Sophia Agrobiotech"
+  country: "France"
+  
+- name: "Pons Ramon, Joan Lluis"
+  affiliation_main: "Station Biologique de Roscoff"
+  country: "France"
+
+# GERMANY ----------------------------------------------------------------------
+- name: "Rose, Laura"
+  affiliation_main: "University of Duesseldorf"
+  country: "Germany"
+
+# INDIA ------------------------------------------------------------------------
+- name: "Nandyala, Chennareddy"
+  affiliation_main: "BlueLeaves Farms"
+  country: "India"
+
+- name: "Seethapathy, Parthasarathy"
+  affiliation_main: "Amrita Vishwa Vidyapeetham"
+  country: "India"
+
+# IRELAND ----------------------------------------------------------------------
+- name: "McGowan, Jamie"
+  affiliation_main: "University College Dublin"
+  country: "Ireland"
+
+# ITALY ------------------------------------------------------------------------
+- name: "Cacciola, Santa Olga"
+  affiliation_main: "University of Catania"
+  affiliation_dept: "Department of Food, Health and Environment"
+  country: "Italy"
+
+- name: "Salimkumar, Ajay Valiyaveettil"
+  affiliation_main: "University of Tuscia"
+  country: "Italy"
+
+# MEXICO -----------------------------------------------------------------------
+- name: "Vega-Arreguin, Julio" 
+  affiliation_main: "ENES Unidad Leon, UNAM"
+  country: "Mexico"
+
+# NETHERLANDS ------------------------------------------------------------------
+- name: "Anbu, Susanna"
+  affiliation_main: "Utrecht University"
+  country: "Netherlands"
+
+- name: "Couillaud, Gabriel Shayne"
+  affiliation_main: "Wageningen University and Research"
+  country: "Netherlands"
+
+- name: "Govers, Francine"
+  affiliation_main: "Wageningen University and Research"
+  affiliation_dept: "Laboratory of Phytopathology"
+  country: "Netherlands"
+
+- name: "Meijer, Harold"
+  affiliation_main: "Wageningen University and Research"
+  country: "Netherlands"
+
+- name: "Nining Sulastri"
+  affiliation_main: "Wageningen University and Research"
+  country: "Netherlands"
+
+- name: "Seidl, Michael F"
+  affiliation_main: "Utrecht University"
+  country: "Netherlands"
+  
+- name: "van den Ackerveken, Guido"
+  affiliation_main: "Utrecht University"
+  country: "Netherlands"
+
+- name: "Verberne, Marianne"
+  affiliation_main: "Hortimare"
+  country: "Netherlands"
+
+# NEPAL ------------------------------------------------------------------------
+- name: "Kumari Upadhaya, Gayatri"
+  affiliation_main: "National Entomology Research Centre"
+  country: "Nepal"
+
+# NEW ZEALAND ------------------------------------------------------------------
+- name: "Garrill, Ashley"
+  affiliation_main: "University of Canterbury"
+  country: "New Zealand"
+
+- name: "Mesarich, Carl"
+  affiliation_main: "Massey University"
+  country: "New Zealand"
+
+- name: "McDougal, Rebecca Louise"
+  affiliation_main: "Scion (New Zealand Forest Research Institute, Ltd.)"
+  country: "New Zealand"
+
+# PAKISTAN ---------------------------------------------------------------------
+- name: "Abidullah"
+  affiliation_main: "Mohi-ud-Din Islamic University"
+  country: "Pakistan"
+
+- name: "Ali, Muhammad Usman"
+  affiliation_main: "University of Agriculture Faisalabad"
+  country: "Pakistan"
+
+# PAPUA NEW GUINEA -------------------------------------------------------------
+- name: "Sunga, Lisa"
+  affiliation_main: "National Agriculture Quarantine and Inspection Authority"
+  country: "Papua New Guinea"
+
+# PHILIPPINES ------------------------------------------------------------------
+- name: "Pramis, Kheer Jemoelle F."
+  affiliation_main: "Central Bicol State University of Agriculture"
+  country: "Philippines"
+
+# SWEDEN -----------------------------------------------------------------------
+- name: "Karlsson, Magnus"
+  affiliation_main: "Swedish University of Agricultural Sciences"
+  country: "Sweden"
+
+- name: "Stjelja Arvelius, Suzana"
+  affiliation_main: "Swedish Veterinary Institute, SVA in Uppsala"
+  country: "Sweden"
+
+# UGANDA -----------------------------------------------------------------------
+- name: "Odebode, Adeyinka"
+  affiliation_main: "Kampala International University"
+  country: "Uganda"
+
+# UK ---------------------------------------------------------------------------
+- name: "Abdelsayed, Sara"
+  affiliation_main: "Northeastern University London"
+  country: "UK"
+
+- name: "Armitage, Andrew"
+  affiliation_main: "Natural Resources Institute, University of Greenwich"
+  country: "UK"
+
+- name: "Barkoulas, Michalis"
+  affiliation_main: "Imperial College London"
+  country: "UK"
+
+- name: "Bogino, Maria Florencia"
+  affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
+  country: "UK"
+
+- name: "Bozkurt, Tolga"
+  affiliation_main: "Imperial College London"
+  country: "UK"
+
+- name: "Breen, Susan"
+  affiliation_main: "Dundee University"
+  country: "UK"
+
+- name: "Camuel, Alicia"
+  affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
+  country: "UK"
+
+- name: "Carella, Philip"
+  affiliation_main: "John Innes Centre"
+  country: "UK"
+
+- name: "Erdogan, Ibrahim"
+  affiliation_main: "University of Worcester"
+  country: "UK"
+
+- name: "Ghimire, Bhawana"
+  affiliation_main: "Bartlett Tree Experts"
+  country: "UK"
+
+- name: "Huitema, Edgar"
+  affiliation_main: "University of Dundee"
+  country: "UK"
+
+- name: "Kamoun, Sophien"
+  affiliation_main: "The Sainsbury Laboratory (TSL)"
+  country: "UK"
+
+- name: "McLellan, Hazel"
+  affiliation_main: "University of Dundee"
+  country: "UK"
+
+- name: "Pandey, Chetan"
+  affiliation_main: "University of Cambridge"
+  country: "UK"
+
+- name: "Schornack, Sebastian"
+  affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
+  country: "UK"
+
+- name: "Tor, Mahmut"
+  affiliation_main: "University of Worcester"
+  country: "UK"
+
+- name: "Triquard, Paul"
+  affiliation_main: "University of Aberdeen"
+  country: "UK"
+
+- name: "Thacker, Urvashi"
+  affiliation_main: "Syngenta"
+  country: "UK"
+
+- name: "Ünal, Gizem"
+  affiliation_main: "University of Worcester"
+  country: "UK"
+
+- name: "Vaessen, Carol F"
+  affiliation_main: "Cranfield University"
+  country: "UK"
+
+- name: "van West, Pieter"
+  affiliation_main: "University of Aberdeen"
+  country: "UK"
+
+- name: "Veerakul, Nitcha"
+  affiliation_main: "University of Oxford"
+  country: "UK"
+
+- name: "Wood, Thomas"
+  affiliation_main: "National Institute of Agricultural Botany (NIAB)"
+  country: "UK"
+
+- name: "Yang, Jennie"
+  affiliation_main: "The Sainsbury Laboratory (TSL)"
+  country: "UK"
+
+# USA --------------------------------------------------------------------------
+- name: "Alcalá Briseño, Ricardo I."
+  affiliation_main: "Pennsylvania State University"
+  country: "USA"
+
+- name: "Allen, Kelly S."
+  affiliation_main: "UMass Amherst"
+  country: "USA"
+
+- name: "Baeza, Juan Antonio"
+  affiliation_main: "Clemson University"
+  country: "USA"
+
+- name: "Cano, Liliana"
+  affiliation_main: "University of Florida"
+  country: "USA"
+
+- name: "Emran, Ali"
+  affiliation_main: "Alcorn State University"
+  country: "USA"
+
+- name: "Eisen, Jonathan"
+  affiliation_main: "UC Davis"
+  country: "USA"
+
+- name: "Goss, Erica"
+  affiliation_main: "University of Florida"
+  country: "USA"
+
+- name: "Goswami, Goutom"
+  affiliation_main: "University of Georgia"
+  country: "USA"
+
+- name: "Herrera Corzo, Mariana"
+  affiliation_main: "University of Florida"
+  country: "USA"
+
+- name: "Jibrin, Mustafa"
+  affiliation_main: "Oklahoma State University"
+  country: "USA"
+
+- name: "Kashyap, Ruchika"
+  affiliation_main: "University of Georgia"
+  country: "USA"
+
+- name: "Matson, Michael"
+  affiliation_main: "Mars Incorporated"
+  country: "USA"
+
+- name: "Morris, Paul"
+  affiliation_main: "Bowling Green State University"
+  country: "USA"
+
+- name: "Ospina-Giraldo, Manuel"
+  affiliation_main: "Lafayette College"
+  country: "USA"
+
+- name: "Rojas, Alejandro"
+  affiliation_main: "Michigan State University"
+  country: "USA"
+
+- name: "Schlathoelter, Ina"
+  affiliation_main: "University of Florida"
+  country: "USA"
+
+- name: "Sformo, Todd"
+  affiliation_main: "University of Alaska Fairbanks"
+  affiliation_dept: "Institute of Arctic Biology"
+  country: "USA"
+
+- name: "Tian, Miaoying"
+  affiliation_main: "University of Georgia"
+  country: "USA"
+
+- name: "Varghese, Thomas"
+  affiliation_main: "Ginkgo Bioworks, Inc."
+  country: "USA"
+
