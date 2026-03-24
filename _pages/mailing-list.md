@@ -33,13 +33,13 @@ This list brings together members of the oomycete research community. If you wou
           <div class="person">
             <span class="person-name">
               {% if given != "" %}
-                {{ surname }}, {{ given }}
+                {{ given }} {{ surname }},
               {% else %}
-                {{ person.name }}
+                {{ person.name }},
               {% endif %}
             </span>
             <span class="person-meta">
-              , {{ person.affiliation_main }}
+              {{ person.affiliation_main }}
             </span>
           </div>
         {% endfor %}
