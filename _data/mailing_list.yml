@@ -93,7 +93,7 @@
 
 - name: "Wang, Qunqing"
   affiliation_main: "Shandong Agricultural University"
-  country "China"
+  country: "China"
 
 - name: "Wang, Xiaodan"
   affiliation_main: "China Agricultural University"
