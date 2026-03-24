@@ -3,6 +3,10 @@
 @import "minima";
 @import "mailing_list";
 
+.mailing-list h3 {
+  margin-top: 1.8em;
+}
+
 /* Hide page title (we keep it in index.md for SEO). */
 .home .page-heading {
   display: none;
