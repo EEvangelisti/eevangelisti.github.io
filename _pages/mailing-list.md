@@ -39,7 +39,7 @@ This list brings together members of the oomycete research community. If you wou
               {% endif %}
             </span>
             <span class="person-meta">
-              &nbsp;— {{ person.affiliation_main }}
+              &nbsp;, {{ person.affiliation_main }}
             </span>
           </div>
         {% endfor %}
