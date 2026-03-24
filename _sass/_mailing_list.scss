@@ -1,0 +1,48 @@
+.mailing-list {
+  .country-section {
+    margin: 0 0 2.25rem 0;
+  }
+
+  .country-title {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .country-rule {
+    margin: 0 0 0.85rem 0;
+    border: 0;
+    border-top: 1px solid #d9d9d9;
+  }
+
+  .people-columns {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+
+  .person {
+    break-inside: avoid;
+    margin: 0 0 0.45rem 0;
+    line-height: 1.4;
+  }
+
+  .person-name {
+    font-weight: 700;
+    color: #111;
+  }
+
+  .person-meta {
+    color: #7a7a7a;
+    font-size: 0.92em;
+  }
+}
+
+@media (max-width: 900px) {
+  .mailing-list {
+    .people-columns {
+      column-count: 1;
+    }
+  }
+}
