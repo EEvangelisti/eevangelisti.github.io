@@ -186,18 +186,21 @@
   affiliation_main: "China Agricultural University"
   affiliation_dept: "College of Plant Protection"
   country: "China"
+  role: "Professor"
 
 - last_name: "Wang"
   first_name: "Yuanchao"
   sort_name: "wang yuanchao"
   affiliation_main: "Nanjing Agriculture University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Xi"
   first_name: "Pinggen"
   sort_name: "xi pinggen"
   affiliation_main: "South China Agricultural University"
   country: "China"
+  role: "Associate Professor"
 
 - last_name: "Xu"
   first_name: "Jiayun"
@@ -219,6 +222,7 @@
   affiliation_main: "Yunnan Academy of Agricultural Sciences"
   affiliation_dept: "Industrial Crops Institute"
   country: "China"
+  role: "Professor"
 
 # CZECH REPUBLIC ---------------------------------------------------------------
 - last_name: "Botella Sánchez"
@@ -455,6 +459,7 @@
   sort_name: "verberne marianne"
   affiliation_main: "Hortimare"
   country: "Netherlands"
+  role: "Researcher"
 
 # NEPAL ------------------------------------------------------------------------
 - last_name: "Kumari Upadhaya"
@@ -623,6 +628,7 @@
   sort_name: "erdogan ibrahim"
   affiliation_main: "University of Worcester"
   country: "UK"
+  role: "Research Fellow"
 
 - last_name: "Ghimire"
   first_name: "Bhawana"
@@ -691,6 +697,7 @@
   sort_name: "unal gizem"
   affiliation_main: "University of Worcester"
   country: "UK"
+  role: "PhD student"
 
 - last_name: "Vaessen"
   first_name: "Carol F"
@@ -778,6 +785,7 @@
   sort_name: "goss erica"
   affiliation_main: "University of Florida"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Goswami"
   first_name: "Goutom"
@@ -840,6 +848,13 @@
   affiliation_main: "Lafayette College"
   country: "USA"
   role: "Faculty Member"
+
+- last_name: "Phuntumart"
+  first_name: "Vipa"
+  sort_name: "phuntumart vipa"
+  affiliation_main: "Bowling Green State University"
+  country: "USA"
+  role: "Professor"
 
 - last_name: "Rojas"
   first_name: "Alejandro"
