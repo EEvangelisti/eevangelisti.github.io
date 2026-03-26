@@ -15,36 +15,27 @@ Send an email to omgn-users AT lists DOT oregonstate DOT edu.
 
 This list brings together members of the oomycete research community. If you would like to join, please use the form above. To update your information or request removal, please contact us.
 
-<div class="mailing-list">
+<table class="mailing-table">
+  <thead>
+    <tr>
+      <th>Last name</th>
+      <th>First name</th>
+      <th>Affiliation</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
 
-  {% assign people_by_country = site.data.mailing_list | group_by: "country" %}
+    {% assign sorted = site.data.mailing_list | sort: "last_name" %}
 
-  {% for country_group in people_by_country %}
-    <section class="country-section">
-      <h2 class="country-title">{{ country_group.name }}</h2>
-      <hr class="country-rule" />
+    {% for person in sorted %}
+      <tr>
+        <td class="last-name">{{ person.last_name }}</td>
+        <td>{{ person.first_name }}</td>
+        <td class="meta">{{ person.affiliation_main }}</td>
+        <td class="meta">{{ person.country }}</td>
+      </tr>
+    {% endfor %}
 
-      <div class="people-columns">
-        {% for person in country_group.items %}
-          {% assign parts = person.name | split: "," %}
-          {% assign surname = parts[0] | strip | upcase %}
-          {% assign given = parts[1] | default: "" | strip %}
-
-          <div class="person">
-            <span class="person-name">
-              {% if given != "" %}
-                {{ given }} {{ surname }}
-              {% else %}
-                {{ person.name }}
-              {% endif %}
-            </span>
-            <span class="person-meta">
-              {{ person.affiliation_main }}
-            </span>
-          </div>
-        {% endfor %}
-      </div>
-    </section>
-  {% endfor %}
-
-</div>
+  </tbody>
+</table>
