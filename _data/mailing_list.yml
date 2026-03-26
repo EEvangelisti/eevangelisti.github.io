@@ -6,66 +6,78 @@
   first_name: "Aayushree"
   affiliation_main: "Deakin University"
   country: "Australia"
+  role: "Student"
 
 # BELGIUM ----------------------------------------------------------------------
 - last_name: "Csukai"
   first_name: "Michael" 
   affiliation_main: "Biotalys"
   country: "Belgium"
+  role: "Group Lead"
 
 - last_name: "Kumpf"
   first_name: "Robert"
   affiliation_main: "University of Gent"
   affiliation_dept: "Departement of Plant Systems Biology"
   country: "Belgium"
+  role: "Professor"
 
 # BRAZIL -----------------------------------------------------------------------
 - last_name: "Mizubuti"
   first_name: "Eduardo S. G."
   affiliation_main: "Universidade Federal de Viçosa"
   country: "Brazil"
+  role: "Professor"
 
 # CHILE ------------------------------------------------------------------------
 - last_name: "Gonzalez Arriagada"
   first_name: "Mariela"
   affiliation_main: "Universidad de O’Higgins"
   country: "Chile"
+  role: "Postdoctoral researcher"
 
 - last_name: "Murúa"
   first_name: "Pedro"
   affiliation_main: "Instituto de Acuicultura y Medio Ambiente"
   country: "Chile"
+  role: "Lecturer"
 
 # CHINA ------------------------------------------------------------------------
 - last_name: "Cai"
   first_name: "Meng"
   affiliation_main: "Central China Normal University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Chen"
   first_name: "Fengping"
   affiliation_main: "Fujian Agriculture and Forestry University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Chen"
   first_name: "Qinghe"
   affiliation_main: "Hainan University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Daly"
   first_name: "Paul"
   affiliation_main: "Jiangsu Academy of Agricultural Sciences"
   country: "China"
+  role: "Assistant Professor"
 
 - last_name: "Dou"
   first_name: "Daolong"
   affiliation_main: "Nanjing Agricutural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Du"
   first_name: "Yu"
   affiliation_main: "Northwest A&F University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Gu"
   first_name: "Biao"
@@ -150,21 +162,25 @@
   country: "China"
 
 # CZECH REPUBLIC ---------------------------------------------------------------
-- name: "Botella Sánchez"
+- last_name: "Botella Sánchez"
+  first_name: "Leticia"
   affiliation_main: "Mendel University in Brno"
   country: "Czech Republic"
+  role: "Associate Professor"
 
 - last_name: "Horta Jung"
   first_name: "Marília"
   affiliation_main: "Mendel University in Brno"
   affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
   country: "Czech Republic"
+  role: "Researcher"
 
 - last_name: "Jung"
   first_name: "Thomas"
   affiliation_main: "Mendel University in Brno"
   affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
   country: "Czech Republic"
+  role: "Head Scientific Researcher"
 
 - last_name: "Nagy"
   first_name: "Zoltán"
@@ -286,7 +302,8 @@
   affiliation_main: "Wageningen University and Research"
   country: "Netherlands"
 
-- name: "Nining Sulastri"
+- last_name: "Sulastri"
+  first_name: "Nining"
   affiliation_main: "Wageningen University and Research"
   country: "Netherlands"
 
@@ -328,9 +345,11 @@
   country: "New Zealand"
 
 # PAKISTAN ---------------------------------------------------------------------
-- name: "Abidullah"
+- first_name: "Abidullah"
+  last_name: "Syed"
   affiliation_main: "Mohi-ud-Din Islamic University"
   country: "Pakistan"
+  role: "Lecturer"
 
 - last_name: "Ali"
   first_name: "Muhammad Usman"
