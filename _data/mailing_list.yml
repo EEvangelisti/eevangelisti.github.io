@@ -121,6 +121,13 @@
   country: "China"
   role: "Associate Professor"
 
+- last_name: "Hou"
+  first_name: "Yingnan"
+  sort_name: "hou yingnan"
+  affiliation_main: "Shanghai Jiao Tong University"
+  country: "China"
+  role: "Associate Professor"
+
 - last_name: "Imran"
   first_name: "Muhammad"
   sort_name: "imran muhammad"
@@ -167,18 +174,21 @@
   sort_name: "sheng hui"
   affiliation_main: "Shandong Agricultural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Wang"
   first_name: "Liyuan"
   sort_name: "wang liyuan"
   affiliation_main: "Shanghai Jiaotong University"
   country: "China"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Wang"
   first_name: "Qunqing"
   sort_name: "wang qunqing"
   affiliation_main: "Shandong Agricultural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Wang"
   first_name: "Xiaodan"
@@ -271,6 +281,14 @@
   affiliation_dept: "Agricultural and Biological Research Institute"
   country: "Egypt"
   role: "Associate Professor"
+
+# FIJI -------------------------------------------------------------------------
+- last_name: "Mataitoga"
+  first_name: "Ane"
+  sort_name: "mataitoga ane"
+  affiliation_main: "Ministry of Agriculture"
+  country: "Fiji"
+  role: "Research Officer"
 
 # FRANCE -----------------------------------------------------------------------
 - last_name: "Badis"
@@ -417,6 +435,7 @@
   sort_name: "couillaud gabriel shayne"
   affiliation_main: "Wageningen University and Research"
   country: "Netherlands"
+  role: "PhD student"
 
 - last_name: "Govers"
   first_name: "Francine"
@@ -491,6 +510,13 @@
   country: "New Zealand"
   role: "Senior Scientist and Team Leader"
 
+- last_name: "Weralupitiya"
+  first_name: "Chanusha"
+  sort_name: "weralupitiya chanusha"
+  affiliation_main: "University of Canterbury"
+  country: "New Zealand"
+  role: "PhD Student"
+
 # PAKISTAN ---------------------------------------------------------------------
 - last_name: "Hussain"
   first_name: "Meqdad"
@@ -498,6 +524,13 @@
   affiliation_main: "Shaheed Zulfiqar Ali Bhutto Medical University (SZABMU)"
   country: "Pakistan"
   role: "Student"
+
+- last_name: "Rajput"
+  first_name: "Nasir Ahmed"
+  sort_name: "rajput nasir ahmed"
+  affiliation_main: "University of Agriculture Faisalabad"
+  country: "Pakistan"
+  role: "Associate Professor"
 
 - last_name: "Syed"
   first_name: "Abidullah"
@@ -529,6 +562,14 @@
   country: "Philippines"
   role: "Student"
 
+# SPAIN ------------------------------------------------------------------------
+- last_name: "Romeralo"
+  first_name: "Carmen" 
+  sort_name: "romeralo carmen"
+  affiliation_main: "Institute of Forest Sciences, INIA-CSIC"
+  country: "Spain"
+  role: "Researcher"
+
 # SWEDEN -----------------------------------------------------------------------
 - last_name: "Karlsson"
   first_name: "Magnus"
@@ -536,6 +577,13 @@
   affiliation_main: "Swedish University of Agricultural Sciences"
   country: "Sweden"
   role: "Professor"
+
+- last_name: "Singh"
+  first_name: "Shailja"
+  sort_name: "singh shailja"
+  affiliation_main: "Swedish University of Agricultural Sciences"
+  country: "Sweden"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Stjelja Arvelius"
   first_name: "Suzana"
@@ -663,6 +711,7 @@
   sort_name: "pandey chetan"
   affiliation_main: "University of Cambridge"
   country: "UK"
+  role: "Student"
 
 - last_name: "Schornack"
   first_name: "Sebastian"
@@ -704,6 +753,7 @@
   sort_name: "vaessen carol f"
   affiliation_main: "Cranfield University"
   country: "UK"
+  role: "Senior Lecturer"
 
 - last_name: "van West"
   first_name: "Pieter"
@@ -738,8 +788,16 @@
   sort_name: "yang jennie"
   affiliation_main: "The Sainsbury Laboratory (TSL)"
   country: "UK"
+  role: "Student"
 
 # USA --------------------------------------------------------------------------
+- last_name: "Adams"
+  first_name: "Gerard C"
+  sort_name: "adams gerard c"
+  affiliation_main: "University of Nebraska-Lincoln"
+  country: "USA"
+  role: "Emeritus"
+
 - last_name: "Alcalá Briseño"
   first_name: "Ricardo I."
   sort_name: "alcalá briseño ricardo i."
@@ -752,12 +810,14 @@
   sort_name: "allen kelly s."
   affiliation_main: "UMass Amherst"
   country: "USA"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Baeza"
   first_name: "Juan Antonio"
   sort_name: "baeza juan antonio"
   affiliation_main: "Clemson University"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Cano"
   first_name: "Liliana"
@@ -806,6 +866,7 @@
   sort_name: "herrera corzo mariana"
   affiliation_main: "University of Florida"
   country: "USA"
+  role: "Student"
 
 - last_name: "Jibrin"
   first_name: "Mustafa"
