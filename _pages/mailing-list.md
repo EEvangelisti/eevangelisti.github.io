@@ -33,7 +33,7 @@ Current members are listed below.
     {% assign sorted = site.data.mailing_list | sort: "sort_name" %}
     {% for person in sorted %}
       <tr>
-        <td data-value="{{ person.last_name | downcase }}">{{ person.last_name | upcase }}</td>
+        <td data-value="{{ person.last_name | downcase }}">{{ person.last_name }}</td>
         <td data-value="{{ person.first_name | downcase }}">{{ person.first_name }}</td>
         <td data-value="{{ person.affiliation_main | downcase }}">{{ person.affiliation_main }}</td>
         <td data-value="{{ person.country | downcase }}">{{ person.country }}</td>
