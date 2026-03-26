@@ -39,7 +39,7 @@
   sort_name: "gonzalez arriagada mariela"
   affiliation_main: "Universidad de O’Higgins"
   country: "Chile"
-  role: "Postdoctoral researcher"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Murúa"
   first_name: "Pedro"
@@ -227,6 +227,7 @@
   affiliation_main: "Sorbonne Université"
   affiliation_dept: "Laboratoire de Biologie Intégrative des Modèles Marins"
   country: "France"
+  role: "Associate Professor"
 
 - last_name: "Evangelisti"
   first_name: "Edouard"
@@ -234,12 +235,14 @@
   affiliation_main: "Université Côte d'Azur"
   affiliation_dept: "Institut Sophia Agrobiotech"
   country: "France"
+  role: "Researcher"
 
 - last_name: "Gachon"
   first_name: "Claire"
   sort_name: "gachon claire"
   affiliation_main: "Muséum National d'Histoire Naturelle"
   country: "France"
+  role: "Professor"
 
 - last_name: "Gaulin"
   first_name: "Élodie"
@@ -247,12 +250,14 @@
   affiliation_main: "Laboratoire de Recherche en Sciences Végétales (LRSV)"
   affiliation_dept: "LRSV UMR5546 CNRS-Université de Toulouse"
   country: "France"
+  role: "Associate Professor"
 
 - last_name: "Jacquet"
   first_name: "Christophe"
   sort_name: "jacquet christophe"
   affiliation_main: "Toulouse University"
   country: "France"
+  role: "Professor"
 
 - last_name: "Kostareli"
   first_name: "Maria-Myrto"
@@ -260,12 +265,14 @@
   affiliation_main: "Université Côte d'Azur"
   affiliation_dept: "Institut Sophia Agrobiotech"
   country: "France"
+  role: "PhD student"
   
 - last_name: "Miebach"
   first_name: "Jeanne"
   sort_name: "miebach jeanne"
   affiliation_main: "Muséum National d'Histoire Naturelle"
   country: "France"
+  role: "Project manager"
 
 - last_name: "Pluis"
   first_name: "Max"
@@ -273,12 +280,14 @@
   affiliation_main: "Université Côte d'Azur"
   affiliation_dept: "Institut Sophia Agrobiotech"
   country: "France"
+  role: "PhD student"
   
 - last_name: "Pons Ramon"
   first_name: "Joan Lluis"
   sort_name: "pons ramon joan lluis"
   affiliation_main: "Station Biologique de Roscoff"
   country: "France"
+  role: "PhD student"
 
 # GERMANY ----------------------------------------------------------------------
 - last_name: "Rose"
@@ -286,6 +295,15 @@
   sort_name: "rose laura"
   affiliation_main: "University of Duesseldorf"
   country: "Germany"
+  role: "Professor"
+
+# ICELAND ----------------------------------------------------------------------
+- last_name: "Scholz"
+  first_name: "Bettina"
+  sort_name: "scholz bettina"
+  affiliation_main: "BioPol ehf."
+  country: "Iceland"
+  role: "Project Manager"
 
 # INDIA ------------------------------------------------------------------------
 - last_name: "Nandyala"
@@ -293,12 +311,14 @@
   sort_name: "nandyala chennareddy"
   affiliation_main: "BlueLeaves Farms"
   country: "India"
+  role: "Mycologist and agronomist"
 
 - last_name: "Seethapathy"
   first_name: "Parthasarathy"
   sort_name: "seethapathy parthasarathy"
   affiliation_main: "Amrita Vishwa Vidyapeetham"
   country: "India"
+  role: "Assistant Professor"
 
 # IRELAND ----------------------------------------------------------------------
 - last_name: "McGowan"
@@ -306,6 +326,7 @@
   sort_name: "mcgowan jamie"
   affiliation_main: "University College Dublin"
   country: "Ireland"
+  role: "Assistant Professor"
 
 # ITALY ------------------------------------------------------------------------
 - last_name: "Cacciola"
@@ -314,12 +335,14 @@
   affiliation_main: "University of Catania"
   affiliation_dept: "Department of Food, Health and Environment"
   country: "Italy"
+  role: "Professor"
 
 - last_name: "Salimkumar"
   first_name: "Ajay Valiyaveettil"
   sort_name: "salimkumar ajay valiyaveettil"
-  affiliation_main: "University of Tuscia"
+  affiliation_main: "University of Tuscia, Viterbo"
   country: "Italy"
+  role: "PhD student"
 
 # MEXICO -----------------------------------------------------------------------
 - last_name: "Vega-Arreguin"
@@ -347,6 +370,7 @@
   affiliation_main: "Wageningen University and Research"
   affiliation_dept: "Laboratory of Phytopathology"
   country: "Netherlands"
+  role: "Emeritus Professor"
 
 - last_name: "Meijer"
   first_name: "Harold"
@@ -365,10 +389,11 @@
   sort_name: "seidl michael f"
   affiliation_main: "Utrecht University"
   country: "Netherlands"
+  role: "Associate Professor"
   
 - last_name: "van den Ackerveken"
   first_name: "Guido"
-  sort_name: "van den ackerveken guido"
+  sort_name: "ackerveken guido van den"
   affiliation_main: "Utrecht University"
   country: "Netherlands"
 
@@ -391,18 +416,21 @@
   sort_name: "garrill ashley"
   affiliation_main: "University of Canterbury"
   country: "New Zealand"
+  role: "Professor"
 
 - last_name: "Mesarich"
   first_name: "Carl"
   sort_name: "mesarich carl"
   affiliation_main: "Massey University"
   country: "New Zealand"
+  role: "Associate Professor"
 
 - last_name: "McDougal"
   first_name: "Rebecca Louise"
   sort_name: "mcdougal rebecca louise"
   affiliation_main: "Scion (New Zealand Forest Research Institute, Ltd.)"
   country: "New Zealand"
+  role: "Senior Scientist and Team Leader"
 
 # PAKISTAN ---------------------------------------------------------------------
 - last_name: "Syed"
@@ -424,6 +452,7 @@
   sort_name: "sunga lisa"
   affiliation_main: "National Agriculture Quarantine and Inspection Authority"
   country: "Papua New Guinea"
+  role: "Plant Pathologist"
 
 # PHILIPPINES ------------------------------------------------------------------
 - last_name: "Pramis"
@@ -438,12 +467,14 @@
   sort_name: "karlsson magnus"
   affiliation_main: "Swedish University of Agricultural Sciences"
   country: "Sweden"
+  role: "Professor"
 
 - last_name: "Stjelja Arvelius"
   first_name: "Suzana"
   sort_name: "stjelja arvelius suzana"
   affiliation_main: "Swedish Veterinary Institute, SVA in Uppsala"
   country: "Sweden"
+  role: "Research Scientist"
 
 # UGANDA -----------------------------------------------------------------------
 - last_name: "Odebode"
@@ -488,12 +519,14 @@
   sort_name: "breen susan"
   affiliation_main: "Dundee University"
   country: "UK"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Camuel"
   first_name: "Alicia"
   sort_name: "camuel alicia"
   affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
   country: "UK"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Carella"
   first_name: "Philip"
@@ -518,18 +551,21 @@
   sort_name: "huitema edgar"
   affiliation_main: "University of Dundee"
   country: "UK"
+  role: "Senior Lecturer"
 
 - last_name: "Kamoun"
   first_name: "Sophien"
   sort_name: "kamoun sophien"
   affiliation_main: "The Sainsbury Laboratory (TSL)"
   country: "UK"
+  role: "Group Leader"
 
 - last_name: "McLellan"
   first_name: "Hazel"
   sort_name: "mclellan hazel"
   affiliation_main: "University of Dundee"
   country: "UK"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Pandey"
   first_name: "Chetan"
@@ -563,7 +599,7 @@
 
 - last_name: "Ünal"
   first_name: "Gizem"
-  sort_name: "ünal gizem"
+  sort_name: "unal gizem"
   affiliation_main: "University of Worcester"
   country: "UK"
 
@@ -575,7 +611,7 @@
 
 - last_name: "van West"
   first_name: "Pieter"
-  sort_name: "van west pieter"
+  sort_name: "west pieter van"
   affiliation_main: "University of Aberdeen"
   country: "UK"
 
@@ -712,4 +748,13 @@
   sort_name: "varghese thomas"
   affiliation_main: "Ginkgo Bioworks, Inc."
   country: "USA"
+
+- last_name: "Witters"
+  first_name: "David"
+  sort_name: "witters david"
+  affiliation_main: "The Discovery Foundation"
+  country: "USA"
+  role: "Principal Investigator"
+
+
 
