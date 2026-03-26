@@ -26,7 +26,7 @@ This list brings together members of the oomycete research community. If you wou
   </thead>
   <tbody>
 
-    {% assign sorted = site.data.mailing_list | sort: "last_name" %}
+    {% assign sorted = site.data.mailing_list | sort: "sort_name" %}
 
     {% for person in sorted %}
       <tr>
