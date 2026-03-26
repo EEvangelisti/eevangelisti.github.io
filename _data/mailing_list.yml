@@ -1,6 +1,13 @@
 # OMGN Mailing List
 # Last updated: 2026-03-24
 
+# ARGENTINA --------------------------------------------------------------------
+- last_name: "Segretin"
+  first_name: "María Eugenia"
+  sort_name: "segretin maria eugenia"
+  affiliation_main: "INGEBI-CONICET/UBA"
+  role: "Professor"
+
 # AUSTRALIA --------------------------------------------------------------------
 - last_name: "Kharel"
   first_name: "Aayushree"
@@ -49,6 +56,14 @@
   role: "Lecturer"
 
 # CHINA ------------------------------------------------------------------------
+- last_name: "Abbas"
+  first_name: Sakina"
+  sort_name: "abbas sakina"
+  affiliation_main: "Chinese Academy of Sciences (CAS)"
+  affiliation_dept: "Institute of Genetics and Developmental Biology"
+  country: "China"
+  role: "PhD student"
+
 - last_name: "Cai"
   first_name: "Meng"
   sort_name: "cai meng"
@@ -370,6 +385,7 @@
   sort_name: "anbu susanna"
   affiliation_main: "Utrecht University"
   country: "Netherlands"
+  role: "PhD student"
 
 - last_name: "Couillaud"
   first_name: "Gabriel Shayne"
@@ -390,6 +406,7 @@
   sort_name: "meijer harold"
   affiliation_main: "Wageningen University and Research"
   country: "Netherlands"
+  role: "Researcher"
 
 - last_name: "Sulastri"
   first_name: "Nining"
@@ -449,6 +466,13 @@
   role: "Senior Scientist and Team Leader"
 
 # PAKISTAN ---------------------------------------------------------------------
+- last_name: "Hussain"
+  first_name: "Meqdad"
+  sort_name: "hussain meqdad"
+  affiliation_main: "Shaheed Zulfiqar Ali Bhutto Medical University (SZABMU)"
+  country: "Pakistan"
+  role: "Student"
+
 - last_name: "Syed"
   first_name: "Abidullah"
   sort_name: "syed abidullah"
@@ -495,6 +519,13 @@
   role: "Research Scientist"
 
 # UGANDA -----------------------------------------------------------------------
+- last_name: "Biryabarema"
+  first_name: "Emmanuel"
+  sort_name: "biryabarema emmanuel"
+  affiliation_main: "Kawempe National Referral Hospital"
+  country: "Uganda"
+  role: "Medical Officer"
+
 - last_name: "Odebode"
   first_name: "Adeyinka"
   sort_name: "odebode adeyinka"
@@ -508,12 +539,14 @@
   sort_name: "abdelsayed sara"
   affiliation_main: "Northeastern University London"
   country: "UK"
+  role: "Lecturer"
 
 - last_name: "Armitage"
   first_name: "Andrew"
   sort_name: "armitage andrew"
   affiliation_main: "Natural Resources Institute, University of Greenwich"
   country: "UK"
+  role: "Associate Professor"
 
 - last_name: "Barkoulas"
   first_name: "Michalis"
@@ -527,12 +560,14 @@
   sort_name: "bogino maria florencia"
   affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
   country: "UK"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Bozkurt"
   first_name: "Tolga"
   sort_name: "bozkurt tolga"
   affiliation_main: "Imperial College London"
   country: "UK"
+  role: "Professor"
 
 - last_name: "Breen"
   first_name: "Susan"
@@ -553,6 +588,14 @@
   sort_name: "carella philip"
   affiliation_main: "John Innes Centre"
   country: "UK"
+  role: "Group Leader"
+
+- last_name: "Deller"
+  first_name: "Sian"
+  sort_name: "deller sian"
+  affiliation_main: "Syngenta"
+  country: "UK"
+  role: "Disease Control Target Identification Science Lead"
 
 - last_name: "Erdogan"
   first_name: "Ibrahim"
@@ -619,6 +662,7 @@
   sort_name: "thacker urvashi"
   affiliation_main: "Syngenta"
   country: "UK"
+  role: "Principal Scientist"
 
 - last_name: "Ünal"
   first_name: "Gizem"
@@ -643,12 +687,21 @@
   sort_name: "veerakul nitcha"
   affiliation_main: "University of Oxford"
   country: "UK"
+  role: "Student"
+
+- last_name: "Wood"
+  first_name: "Ana Karla"
+  sort_name: "wood thomas"
+  affiliation_main: "Syngenta"
+  country: "UK"
+  role: "Principal Scientist"
 
 - last_name: "Wood"
   first_name: "Thomas"
   sort_name: "wood thomas"
   affiliation_main: "National Institute of Agricultural Botany (NIAB)"
   country: "UK"
+  role: "Group Leader"
 
 - last_name: "Yang"
   first_name: "Jennie"
@@ -695,6 +748,7 @@
   sort_name: "eisen jonathan"
   affiliation_main: "UC Davis"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Goss"
   first_name: "Erica"
@@ -741,6 +795,7 @@
   sort_name: "matson michael"
   affiliation_main: "Mars Incorporated"
   country: "USA"
+  role: "Senior Scientist"
 
 - last_name: "Morris"
   first_name: "Paul"
