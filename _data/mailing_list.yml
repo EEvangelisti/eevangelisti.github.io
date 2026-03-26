@@ -222,6 +222,15 @@
   affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
   country: "Czech Republic"
 
+# EGYPT ------------------------------------------------------------------------
+- last_name: "Hassan"
+  first_name: "Islam"
+  sort_name: "hassan islam"
+  affiliation_main: "National Research Centre"
+  affiliation_dept: "Agricultural and Biological Research Institute"
+  country: "Egypt"
+  role: "Associate Professor"
+
 # FRANCE -----------------------------------------------------------------------
 - last_name: "Badis"
   first_name: "Yacine"
@@ -352,6 +361,7 @@
   sort_name: "vega-arreguin julio"
   affiliation_main: "ENES Unidad Leon, UNAM"
   country: "Mexico"
+  role: "Professor"
 
 # NETHERLANDS ------------------------------------------------------------------
 - last_name: "Anbu"
@@ -385,6 +395,7 @@
   sort_name: "sulastri nining"
   affiliation_main: "Wageningen University and Research"
   country: "Netherlands"
+  role: "Student"
 
 - last_name: "Seidl"
   first_name: "Michael F"
@@ -398,6 +409,7 @@
   sort_name: "ackerveken guido van den"
   affiliation_main: "Utrecht University"
   country: "Netherlands"
+  role: "Professor"
 
 - last_name: "Verberne"
   first_name: "Marianne"
@@ -463,6 +475,7 @@
   sort_name: "pramis kheer jemoelle f."
   affiliation_main: "Central Bicol State University of Agriculture"
   country: "Philippines"
+  role: "Student"
 
 # SWEDEN -----------------------------------------------------------------------
 - last_name: "Karlsson"
@@ -647,6 +660,7 @@
   sort_name: "alcalá briseño ricardo i."
   affiliation_main: "Pennsylvania State University"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Allen"
   first_name: "Kelly S."
@@ -781,6 +795,7 @@
   sort_name: "varghese thomas"
   affiliation_main: "Ginkgo Bioworks, Inc."
   country: "USA"
+  role: "Senior Director"
 
 - last_name: "Witters"
   first_name: "David"
