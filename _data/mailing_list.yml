@@ -40,6 +40,14 @@
   country: "Brazil"
   role: "Professor"
 
+# CANADA -----------------------------------------------------------------------
+- last_name: "Zhang"
+  first_name: "Wentao"
+  sort_name: "zhang wentao"
+  affiliation_main: "National Research Council"
+  country: "Canada"
+  role: "Research Scientist"
+
 # CHILE ------------------------------------------------------------------------
 - last_name: "Gonzalez Arriagada"
   first_name: "Mariela"
@@ -125,18 +133,21 @@
   sort_name: "jing maofeng"
   affiliation_main: "Nanjing Agricultural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Kong"
   first_name: "Liang"
   sort_name: "kong liang"
   affiliation_main: "Nanjing Agricultural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Li"
   first_name: "Wenxiu"
   sort_name: "li wenxiu"
   affiliation_main: "Shandong Agricutural University"
   country: "China"
+  role: "Student"
 
 - last_name: "Ma"
   first_name: "Zhenchuan"
@@ -149,6 +160,7 @@
   sort_name: "qiu min"
   affiliation_main: "Nanjing Agricultural University"
   country: "China"
+  role: "Assistant Research Fellow"
 
 - last_name: "Sheng"
   first_name: "Hui"
@@ -199,6 +211,7 @@
   sort_name: "ye wenwu"
   affiliation_main: "Nanjing Agricultural University"
   country: "China"
+  role: "Professor"
 
 - last_name: "Zhao"
   first_name: "Zhijian"
@@ -237,6 +250,14 @@
   affiliation_main: "Mendel University in Brno"
   affiliation_dept: "Phytophthora Research Centre, Dept. of Forestry and Wildlife Management"
   country: "Czech Republic"
+  role: "Senior Researcher"
+
+- last_name: "Saiz-Fernández"
+  first_name: "Iñigo"
+  sort_name: "saiz-fernandez inigo"
+  affiliation_main: "Palacký University Olomouc"
+  country: "Czech Republic"
+  role: "Researcher"
 
 # EGYPT ------------------------------------------------------------------------
 - last_name: "Hassan"
@@ -656,6 +677,7 @@
   sort_name: "triquard paul"
   affiliation_main: "University of Aberdeen"
   country: "UK"
+  role: "Student"
 
 - last_name: "Thacker"
   first_name: "Urvashi"
@@ -681,6 +703,7 @@
   sort_name: "west pieter van"
   affiliation_main: "University of Aberdeen"
   country: "UK"
+  role: "Professor"
 
 - last_name: "Veerakul"
   first_name: "Nitcha"
@@ -824,6 +847,13 @@
   affiliation_main: "Michigan State University"
   country: "USA"
   role: "Assistant Professor"
+
+- last_name: "Shakya"
+  first_name: "Shankar K."
+  sort_name: "shakya shankar k."
+  affiliation_main: "Ball Horticultural Company"
+  country: "USA"
+  role: "Scientist"
 
 - last_name: "Schlathoelter"
   first_name: "Ina"
