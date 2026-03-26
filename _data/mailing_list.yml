@@ -175,6 +175,7 @@
   sort_name: "xu jiayun"
   affiliation_main: "Shanghai Normal University"
   country: "China"
+  role: "Lecturer"
 
 - last_name: "Ye"
   first_name: "Wenwu"
@@ -584,6 +585,7 @@
   sort_name: "tor mahmut"
   affiliation_main: "University of Worcester"
   country: "UK"
+  role: "Professor"
 
 - last_name: "Triquard"
   first_name: "Paul"
@@ -657,12 +659,14 @@
   sort_name: "cano liliana"
   affiliation_main: "University of Florida"
   country: "USA"
+  role: "Assistant Professor"
 
-- last_name: "Emran"
-  first_name: "Ali"
-  sort_name: "emran ali"
+- last_name: "Ali"
+  first_name: "Emran"
+  sort_name: "ali emran"
   affiliation_main: "Alcorn State University"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Eisen"
   first_name: "Jonathan"
@@ -693,6 +697,7 @@
   sort_name: "jibrin mustafa"
   affiliation_main: "Oklahoma State University"
   country: "USA"
+  role: "Professor"
 
 - last_name: "Kashyap"
   first_name: "Ruchika"
@@ -742,6 +747,7 @@
   sort_name: "tian miaoying"
   affiliation_main: "University of Georgia"
   country: "USA"
+  role: "Associate Professor"
 
 - last_name: "Varghese"
   first_name: "Thomas"
