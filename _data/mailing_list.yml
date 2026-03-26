@@ -102,6 +102,7 @@
   sort_name: "imran muhammad"
   affiliation_main: "Henan University of Technology"
   country: "China"
+  role: "Assistant Professor"
 
 - last_name: "Jing"
   first_name: "Maofeng"
@@ -441,11 +442,12 @@
   country: "Pakistan"
   role: "Lecturer"
 
-- last_name: "Ali"
-  first_name: "Muhammad Usman"
-  sort_name: "ali muhammad usman"
+- last_name: "Usman Ali"
+  first_name: "Muhammad"
+  sort_name: "usman ali muhammad"
   affiliation_main: "University of Agriculture Faisalabad"
   country: "Pakistan"
+  role: "Lecturer"
 
 # PAPUA NEW GUINEA -------------------------------------------------------------
 - last_name: "Sunga"
@@ -483,6 +485,7 @@
   sort_name: "odebode adeyinka"
   affiliation_main: "Kampala International University"
   country: "Uganda"
+  role: "Researcher"
 
 # UK ---------------------------------------------------------------------------
 - last_name: "Abdelsayed"
@@ -502,6 +505,7 @@
   sort_name: "barkoulas michalis"
   affiliation_main: "Imperial College London"
   country: "UK"
+  role: "Associate Professor"
 
 - last_name: "Bogino"
   first_name: "Maria Florencia"
@@ -546,6 +550,7 @@
   sort_name: "ghimire bhawana"
   affiliation_main: "Bartlett Tree Experts"
   country: "UK"
+  role: "Diagnostician"
 
 - last_name: "Huitema"
   first_name: "Edgar"
@@ -579,6 +584,7 @@
   sort_name: "schornack sebastian"
   affiliation_main: "Sainsbury Laboratory Cambridge University (SLCU)"
   country: "UK"
+  role: "Senior Research Group Leader"
 
 - last_name: "Tor"
   first_name: "Mahmut"
@@ -685,6 +691,14 @@
   sort_name: "goswami goutom"
   affiliation_main: "University of Georgia"
   country: "USA"
+  role: "PhD student"
+
+- last_name: "Grünwald"
+  first_name: "Niklaus"
+  sort_name: "grunwald niklaus"
+  affiliation_main: "USDA ARS"
+  country: "USA"
+  role: "Research Plant Pathologist"
 
 - last_name: "Herrera Corzo"
   first_name: "Mariana"
@@ -704,6 +718,7 @@
   sort_name: "kashyap ruchika"
   affiliation_main: "University of Georgia"
   country: "USA"
+  role: "Assistant Professor"
 
 - last_name: "Matson"
   first_name: "Michael"
@@ -716,24 +731,35 @@
   sort_name: "morris paul"
   affiliation_main: "Bowling Green State University"
   country: "USA"
+  role: "Professor"
+
+- last_name: "Obol Opiyo"
+  first_name: "Stephen"
+  sort_name: "obol opiyo stephen"
+  affiliation_main: "Patira Data Science"
+  country: "USA"
+  role: "Data Scientist"
 
 - last_name: "Ospina-Giraldo"
   first_name: "Manuel"
   sort_name: "ospina-giraldo manuel"
   affiliation_main: "Lafayette College"
   country: "USA"
+  role: "Faculty Member"
 
 - last_name: "Rojas"
   first_name: "Alejandro"
   sort_name: "rojas alejandro"
   affiliation_main: "Michigan State University"
   country: "USA"
+  role: "Assistant Professor"
 
 - last_name: "Schlathoelter"
   first_name: "Ina"
   sort_name: "schlathoelter ina"
   affiliation_main: "University of Florida"
   country: "USA"
+  role: "Postdoctoral Researcher"
 
 - last_name: "Sformo"
   first_name: "Todd"
@@ -741,6 +767,7 @@
   affiliation_main: "University of Alaska Fairbanks"
   affiliation_dept: "Institute of Arctic Biology"
   country: "USA"
+  role: "Biologist"
 
 - last_name: "Tian"
   first_name: "Miaoying"
