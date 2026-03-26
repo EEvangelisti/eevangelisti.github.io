@@ -96,6 +96,7 @@
   sort_name: "gu biao"
   affiliation_main: "Northwest A&F University"
   country: "China"
+  role: "Associate Professor"
 
 - last_name: "Imran"
   first_name: "Muhammad"
@@ -423,6 +424,7 @@
   sort_name: "kumari upadhaya gayatri"
   affiliation_main: "National Entomology Research Centre"
   country: "Nepal"
+  role: "Research Intern"
 
 # NEW ZEALAND ------------------------------------------------------------------
 - last_name: "Garrill"
