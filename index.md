@@ -38,7 +38,7 @@ Nominations will be reviewed by the current Steering Committee and used to assem
 Please submit your nominations by <b>March 31, 2026</b> using the link below:
 
 <div style="text-align: center; margin-top: 0.6em;">
-  <a href="https://forms.office.com/..." target="_blank" rel="noopener">
+  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HmwhqGNNUkOMO1D6HxR1sXjxC4XIJzZKletlr31P9mFUQk81TTY0NlVaMUQ4R0xUU0hEN0xWQjFNNC4u&wdLOR=cD378959B-7CAE-C749-9A60-48E6FEBC5AD1" target="_blank" rel="noopener">
     OMGN Steering Committee Member Nomination – Fill out form
   </a>
 </div>
