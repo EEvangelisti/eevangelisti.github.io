@@ -27,7 +27,7 @@ within the oomycete research community.
 - Support early-career researchers  
 - Facilitate international collaboration  
 
-<!-- Inactive for the moment (but keep it for later) -->
+<!-- Inactive for the moment (but keep it for later)
 
 <div class="info-box">
 <span style="color: firebrick;"><b>The OMGN Steering Committee (SC) is soliciting nominations to fill four SC member positions.</b></span>
@@ -43,7 +43,7 @@ Please submit your nominations by <b>March 31, 2026</b> using the link below:
   </a>
 </div>
 </div>
-
+-->
 ---
 *Connecting researchers. Advancing oomycete biology. Strengthening our community.*
 
