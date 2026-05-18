@@ -9,6 +9,26 @@ title: Oomycete Molecular Genetics Network (OMGN)
        style="max-width:500px; width:100%; height:auto;">
 </div>
 
+
+### Newly Elected Steering Committee Members
+
+<div style="color: firebrick;">
+  <p>We are delighted to announce the four newly elected members to the Oomycete Steering Committee.</p>
+
+  <p>Many thanks to all members of the community who cast their vote, and to all candidates for their willingness to contribute to the future of our community.</p>
+
+  <p>We look forward to fruitful interactions and collaborations ahead.</p>
+
+  <ul>
+    <li>Monica Gerth, Victoria University, New Zealand</li>
+    <li>Michael Seidl, Utrecht University, Netherlands</li>
+    <li>Susan Breen, University of Dundee, Scotland</li>
+    <li>Francis Fang, Ohio State University, USA</li>
+  </ul>
+</div>
+
+---
+
 The **Oomycete Molecular Genetics Network (OMGN)** brings together researchers 
 working on the molecular, cellular and genetic foundations of oomycete biology.
 
