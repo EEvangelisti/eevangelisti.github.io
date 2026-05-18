@@ -12,20 +12,30 @@ title: Oomycete Molecular Genetics Network (OMGN)
 
 ## **Newly Elected Steering Committee Members**
 
-<div style="color: firebrick;">
-  <p>We are delighted to announce the four newly elected members to the Oomycete Steering Committee.</p>
+We are delighted to announce the four newly elected members to the Oomycete Steering Committee.
+Many thanks to all members of the community who cast their vote, and to all 
+candidates for their willingness to contribute to the future of our community.
+We look forward to fruitful interactions and collaborations ahead.
 
-  <p>Many thanks to all members of the community who cast their vote, and to all candidates for their willingness to contribute to the future of our community.</p>
-
-  <p>We look forward to fruitful interactions and collaborations ahead.</p>
-
-  <ul>
-    <li>Monica Gerth, Victoria University, New Zealand</li>
-    <li>Michael Seidl, Utrecht University, Netherlands</li>
-    <li>Susan Breen, University of Dundee, Scotland</li>
-    <li>Francis Fang, Ohio State University, USA</li>
-  </ul>
+<div class="committee-list">
+{% for p in site.data.elections %}
+  <div class="member">
+    <img src="{{ site.baseurl }}/assets/images/steering/{{ p.photo }}" alt="{{ p.name }}">
+    <div class="member-info">
+      <div class="member-name">
+        {% if p.url %}
+          <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>
+        {% else %}
+          {{ p.name }}
+        {% endif %}
+      </div>
+      <div class="member-role">{{ p.role }}</div>
+      <div class="member-affiliation">{{ p.affiliation }}</div>
+    </div>
+  </div>
+{% endfor %}
 </div>
+
 
 ---
 
