@@ -10,7 +10,7 @@ title: Oomycete Molecular Genetics Network (OMGN)
 </div>
 
 
-## **Newly Elected Steering Committee Members**
+## **May 18, 2026:** Newly Elected Steering Committee Members
 
 We are delighted to announce the four newly elected members to the Oomycete Steering Committee.
 Many thanks to all members of the community who cast their vote, and to all 
