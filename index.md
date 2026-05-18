@@ -10,7 +10,7 @@ title: Oomycete Molecular Genetics Network (OMGN)
 </div>
 
 
-### Newly Elected Steering Committee Members
+## **Newly Elected Steering Committee Members**
 
 <div style="color: firebrick;">
   <p>We are delighted to announce the four newly elected members to the Oomycete Steering Committee.</p>
