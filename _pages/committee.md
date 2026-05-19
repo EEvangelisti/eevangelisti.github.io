@@ -53,3 +53,22 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 {% endfor %}
 </div>
 
+## Former OMGN-SC members
+
+The oomycete community is grateful to all those who have contributed to the 
+steering committee, helped organize meetings, and brought researchers together 
+across the community.
+
+<ul class="former-committee-list">
+{% for p in site.data.former-omgn-sc-members %}
+  <li>
+    <strong>{{ p.name }}</strong>{% if p.affiliation %}, {{ p.affiliation }}{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
