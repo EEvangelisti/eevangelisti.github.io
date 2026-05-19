@@ -62,7 +62,7 @@ across the community.
 <ul class="former-committee-list">
 {% for p in site.data.former-omgn-sc-members %}
   <li>
-    <strong>{{ p.name }}</strong>{% if p.affiliation %}<small>, {{ p.affiliation (p.country) }}</small>{% endif %}
+    <strong>{{ p.name }}</strong>{% if p.affiliation %}, {{ p.affiliation (p.country) }}{% endif %}
   </li>
 {% endfor %}
 </ul>
