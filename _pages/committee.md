@@ -35,7 +35,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
 ## Current OMGN-SC members
 
 <div class="committee-list">
-{% for p in site.data.committee %}
+{% for p in site.data.current-omgn-sc-members %}
   <div class="member">
     <img src="{{ site.baseurl }}/assets/images/steering/{{ p.photo }}" alt="{{ p.name }}">
     <div class="member-info">
