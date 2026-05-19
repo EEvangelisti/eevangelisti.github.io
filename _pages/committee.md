@@ -47,7 +47,7 @@ The Scientific Chairs organize the OMGN meeting, and in particular:
         {% endif %}
       </div>
       <div class="member-role">{{ p.role }}</div>
-      <div class="member-affiliation">{{ p.affiliation }}</div>
+      <div class="member-affiliation">{{ p.affiliation }} ({{ p.country }})</div>
     </div>
   </div>
 {% endfor %}
