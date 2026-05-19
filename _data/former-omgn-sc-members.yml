@@ -1,35 +1,43 @@
--name: "Brett Tyler"
+- name: "Brett Tyler"
+  affiliation: "Oregon State University"
+  country: "USA"
 
--name: "Pieter van West"
+- name: "Pieter van West"
+  affiliation: "University of Aberdeen" 
+  country: "Scotland"
 
--name: "Manual Ospina-Giraldo"
+- name: "Manual Ospina-Giraldo"
+  affiliation: "Lafayette College"
+  country: "USA"
 
--name: "Howard Judelson"
+- name: "Howard Judelson"
+  affiliation: "University of California, Riverside"
+  country: "USA"
 
--name: "Nik Grunwald"
+- name: "Nik Grunwald"
+  affiliation: "Oregon State University"
+  country: "USA"
 
--name: "Laura Grenville-Briggs"
+- name: "Laura Grenville-Briggs"
+  affiliation: "Swedish University of Agricultural Sciences"
+  country: "Sweden"
 
--name: "Francine Govers"
+- name: "Francine Govers"
+  affiliation: "Wageningen University & Research"
+  country: "Netherlands"
 
--name: "John McDowell"
+- name: "John McDowell"
+  affiliation: "Virginia Tech"
+  country: "USA"
 
--name: "Sophien Kamoun"
+- name: "Sophien Kamoun"
+  affiliation: "The Sainsbury Laboratory"
+  country: "UK"
 
--name: "Elodie Gaulin"
+- name: "Yuanchao Wang"
+  affiliation: "Nanjing Agricultural University"
+  country: "China"
 
--name: "Yuanchao Wang"
-
--name: "Brett Tyler"
-
--name: "Pieter van West"
-
--name: "Manual Ospina-Giraldo"
-
--name: "Howard Judelson"
-
--name: "Nik Grunwald"
-
--name: "Laura Grenville-Briggs"
-
--name: "Eleonor Gilroy"
+- name: "Eleonor Gilroy"
+  affiliation: "The James Hutton Institute"
+  country: "Scotland"
