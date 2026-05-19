@@ -1,65 +1,76 @@
-- name: Mahmut TÖR
+- name: Mahmut Tör
   role: Co-Chair
-  affiliation: University of Worcester (United Kingdom)
+  affiliation: University of Worcester
+  country: United Kingdom
   url: https://www.worcester.ac.uk/about/profiles/professor-mahmut-tor
   photo: MahmutTor.jpg
 
-- name: Miaoying TIAN
+- name: Miaoying Tian
   role: Co-Chair
-  affiliation: University of Georgia (USA)
+  affiliation: University of Georgia
+  country: USA
   url: https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html
   photo: MiaoyingTian.jpg
 
-- name: Wenbo MA
+- name: Wenbo Ma
   role: Member
-  affiliation: The Sainsbury Laboratory (United Kingdom)
+  affiliation: The Sainsbury Laboratory
+  country: United Kingdom
   url: https://www.tsl.ac.uk/about/people/wenbo-ma
   photo: WenboMa.jpg
 
-- name: Claire GACHON
+- name: Claire Gachon
   role: Member
-  affiliation: Muséum National d'Histoire Naturelle (France)
+  affiliation: Muséum National d'Histoire Naturelle
+  country: France
   url: https://mcam.mnhn.fr/fr/annuaire/claire-gachon-6345
   photo: ClaireGachon.jpg
 
-- name: Erica GOSS
+- name: Erica Goss
   role: Member
-  affiliation: University of Florida (USA)
+  affiliation: University of Florida
+  country: USA
   url: https://plantpath.ifas.ufl.edu/people/faculty-pages/erica-goss/
   photo: EricaGoss.jpg
 
-- name: Suomeng DONG
+- name: Suomeng Dong
   role: Member
-  affiliation: Nanjing Agricultural University (China)
+  affiliation: Nanjing Agricultural University
+  country: China
   url: https://plant-en.njau.edu.cn/info/1009/1140.htm
   photo: SuomengDong.jpg
 
-- name: Edouard EVANGELISTI
+- name: Edouard Evangelisti
   role: Member, Website maintenance
-  affiliation: Université Côte d'Azur (France)
+  affiliation: Université Côte d'Azur
+  country: France
   url: https://institut-sophia-agrobiotech.paca.hub.inrae.fr/equipes-isa/ipo/membres-de-l-equipe/evangelisti-edouard
   photo: EdouardEvangelisti.jpg
 
-- name: Sebastian SCHORNACK
+- name: Sebastian Schornack
   role: Member
-  affiliation: Sainsbury Laboratory Cambridge University (United Kingdom)
+  affiliation: Sainsbury Laboratory Cambridge University
+  country: United Kingdom
   url: https://www.slcu.cam.ac.uk/people/sebastian-schornack
   photo: SebastianSchornack.jpg
 
-- name: Jean RISTAINO
+- name: Jean Ristaino
   role: <i>Ex officio</i> Member
-  affiliation: NC State University (USA)
+  affiliation: NC State University
+  country: USA
   url: https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/
   photo: JeanRistaino.jpg
  
-- name: Elodie GAULIN
+- name: Elodie Gaulin
   role: <i>Ex officio</i> Member
-  affiliation: Université de Toulouse (France)
+  affiliation: Université de Toulouse
+  country: France
   url: https://lrsv.cnrs.fr/elodie-gaulin/
   photo: ElodieGaulin.jpg
 
-- name: Paul Francis MORRIS
+- name: Paul Francis Morris
   role: Member, Financial management
-  affiliation: Bowling Green State University (USA)
+  affiliation: Bowling Green State University
+  country: USA
   url: https://www.bgsu.edu/arts-and-sciences/biological-sciences/faculty-and-staff/alphabetical-listing/paul-morris.html
   photo: PaulFrancisMorris.jpg
