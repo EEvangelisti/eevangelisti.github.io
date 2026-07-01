@@ -12,7 +12,7 @@ title: Oomycete Molecular Genetics Network (OMGN)
 <!-- SECTION USED FOR OMGN-SC ELECTIONS
     Use this section to inform the community about newly elected OMGN-SC members.
     The corresonding file is data/newly-elected-omgn-sc-members.yml
--->
+
 ## **May 18, 2026:** Newly Elected Steering Committee Members
 
 We are delighted to announce the four newly elected members to the Oomycete Steering Committee.
@@ -38,7 +38,7 @@ We look forward to fruitful interactions and collaborations ahead.
   </div>
 {% endfor %}
 </div>
-
+-->
 
 ---
 
