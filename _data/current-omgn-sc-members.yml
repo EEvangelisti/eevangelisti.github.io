@@ -12,13 +12,6 @@
   url: https://plantpath.caes.uga.edu/people/faculty/miaoying-tian.html
   photo: MiaoyingTian.jpg
 
-- name: Wenbo Ma
-  role: Member
-  affiliation: The Sainsbury Laboratory
-  country: United Kingdom
-  url: https://www.tsl.ac.uk/about/people/wenbo-ma
-  photo: WenboMa.jpg
-
 - name: Claire Gachon
   role: Member
   affiliation: Muséum National d'Histoire Naturelle
@@ -54,13 +47,6 @@
   url: https://www.slcu.cam.ac.uk/people/sebastian-schornack
   photo: SebastianSchornack.jpg
 
-- name: Jean Ristaino
-  role: <i>Ex officio</i> Member
-  affiliation: NC State University
-  country: USA
-  url: https://cals.ncsu.edu/plant-and-microbial-biology/people/jbr/
-  photo: JeanRistaino.jpg
- 
 - name: Elodie Gaulin
   role: <i>Ex officio</i> Member
   affiliation: Université de Toulouse
@@ -74,3 +60,31 @@
   country: USA
   url: https://www.bgsu.edu/arts-and-sciences/biological-sciences/faculty-and-staff/alphabetical-listing/paul-morris.html
   photo: PaulFrancisMorris.jpg
+
+- name: Monica Gerth
+  role: Member
+  affiliation: Victoria University
+  country: New Zealand
+  url: https://people.wgtn.ac.nz/monica.gerth
+  photo: MonicaGerth.jpg
+
+- name: Michael Seidl
+  role: Member
+  affiliation: Utrecht University
+  country: Netherlands
+  url: https://www.uu.nl/staff/MFSeidl
+  photo: MichaelSeidl.jpg
+
+- name: Susan Breen
+  role: Member
+  affiliation: The James Hutton Institute
+  country: Scotland
+  url: https://www.hutton.ac.uk/people/dr-susan-breen/
+  photo: SusanBreen.jpg
+
+- name: Yufeng (Francis) Fang
+  role: Member
+  affiliation: Ohio State University
+  country: USA
+  url: https://plantpath.osu.edu/our-people/yufeng-francis-fang
+  photo: FrancisFang.jpg
