@@ -1,0 +1,6 @@
+- name: Update mailing list
+  env:
+    AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+    AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
+    AIRTABLE_TABLE_ID: ${{ vars.AIRTABLE_TABLE_ID }}
+  run: python scripts/update_mailing_list.py
