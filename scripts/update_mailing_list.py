@@ -114,7 +114,7 @@ def split_name(raw_name: str) -> tuple[str, str, str]:
 
     if "," in raw_name:
         last_name, first_name = raw_name.split(",", 1)
-        last_name = last_name.strip()
+        last_name = last_name.strip().upper()
         first_name = first_name.strip()
         display_name = " ".join(part for part in (last_name, first_name) if part)
     else:
