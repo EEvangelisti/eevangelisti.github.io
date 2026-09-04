@@ -23,18 +23,18 @@ Current members are listed below. <b>Note:</b> the list below is not yet connect
 <table class="mailing-table" id="mailing-table">
   <thead>
     <tr>
-      <th data-column="last_name">Last name <span class="sort-indicator"></span></th>
-      <th data-column="first_name">First name <span class="sort-indicator"></span></th>
-      <th data-column="affiliation_main">Affiliation <span class="sort-indicator"></span></th>
-      <th data-column="country">Country <span class="sort-indicator"></span></th>
+      <th data-column="last_name">Name<span class="sort-indicator"></span></th>
+      <th data-column="affiliation_main">Affiliation<span class="sort-indicator"></span></th>
+      <th data-column="country">Country<span class="sort-indicator"></span></th>
     </tr>
   </thead>
   <tbody>
     {% assign sorted = site.data.mailing_list | sort: "sort_name" %}
     {% for person in sorted %}
       <tr>
-        <td data-value="{{ person.last_name | downcase }}">{{ person.last_name }}</td>
-        <td data-value="{{ person.first_name | downcase }}">{{ person.first_name }}</td>
+        <td data-value="{{ person.last_name | append: ' ' | append: person.first_name | downcase }}">
+          {{ person.last_name }}{% if person.first_name != "" %}, {{ person.first_name }}{% endif %}
+        </td>
         <td data-value="{{ person.affiliation_main | downcase }}">{{ person.affiliation_main }}</td>
         <td data-value="{{ person.country | downcase }}">{{ person.country }}</td>
       </tr>
