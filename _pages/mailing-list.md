@@ -9,7 +9,7 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 - To send an email to the mailing list, email omgn-users AT lists DOT oregonstate DOT edu.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
 
-Current members are listed below.
+Current members are listed below. <b>Note:</b> the list below is not yet connected to the database. It is therefore expected that your name won't appear here after registration. We are working on this issue.
 
 <div class="mailing-list-controls">
   <input
