@@ -2,6 +2,43 @@
   margin: 1rem 0 1.25rem 0;
 }
 
+.mailing-list-alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0 0 1.25rem 0;
+}
+
+.mailing-list-alphabet button {
+  min-width: 2rem;
+  padding: 0.3rem 0.45rem;
+  font-size: 0.9rem;
+  border: 1px solid #d6d6d6;
+  border-radius: 0.35rem;
+  background: #fff;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.15s ease,
+              border-color 0.15s ease,
+              color 0.15s ease;
+}
+
+.mailing-list-alphabet button:hover:not(:disabled) {
+  background: #f7f7f7;
+  border-color: #aaa;
+}
+
+.mailing-list-alphabet button.active {
+  background: #444;
+  border-color: #444;
+  color: #fff;
+}
+
+.mailing-list-alphabet button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
 #mailing-list-search {
   width: 100%;
   max-width: 32rem;
@@ -56,8 +93,8 @@
     letter-spacing: 0.02em;
   }
 
-  tbody td:nth-child(3),
-  tbody td:nth-child(4) {
+  tbody td:nth-child(2),
+  tbody td:nth-child(3) {
     color: #666;
     font-size: 0.92em;
   }
