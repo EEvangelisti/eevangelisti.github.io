@@ -9,7 +9,8 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 - To send an email to the mailing list, email omgn-users AT lists DOT oregonstate DOT edu.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
 
-Current members are listed below. <b>Note:</b> the list below is not yet connected to the database. It is therefore expected that your name won't appear here after registration. We are working on this issue.
+Current members are listed below. <b>Note:</b> the list below is updated every hour. Please allow some time for recent registrations or changes to appear.
+
 
 <div class="mailing-list-controls">
   <input
@@ -18,6 +19,14 @@ Current members are listed below. <b>Note:</b> the list below is not yet connect
     placeholder="Search by name, affiliation, or country..."
     aria-label="Search the mailing list"
   >
+</div>
+
+<div class="mailing-list-alphabet" id="mailing-list-alphabet" aria-label="Filter by last name initial">
+  <button type="button" data-letter="" class="active">All</button>
+  {% assign letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+  {% for letter in letters %}
+    <button type="button" data-letter="{{ letter }}">{{ letter }}</button>
+  {% endfor %}
 </div>
 
 <table class="mailing-table" id="mailing-table">
@@ -48,14 +57,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const tbody = table.querySelector("tbody");
   const headers = Array.from(table.querySelectorAll("th"));
   const searchInput = document.getElementById("mailing-list-search");
+  const alphabet = document.getElementById("mailing-list-alphabet");
+  const alphabetButtons = Array.from(alphabet.querySelectorAll("button"));
 
   let sortState = [];
+  let activeLetter = "";
 
   const columnIndex = {
     last_name: 0,
-    first_name: 1,
-    affiliation_main: 2,
-    country: 3
+    affiliation_main: 1,
+    country: 2
   };
 
   function getCellValue(row, index) {
@@ -70,10 +81,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const b = getCellValue(rowB, idx);
 
       const cmp = a.localeCompare(b, undefined, { sensitivity: "base" });
+
       if (cmp !== 0) {
         return criterion.direction === "asc" ? cmp : -cmp;
       }
     }
+
     return 0;
   }
 
@@ -87,8 +100,13 @@ document.addEventListener("DOMContentLoaded", function () {
       const th = table.querySelector(`th[data-column="${criterion.column}"]`);
       if (!th) return;
 
-      th.classList.add(criterion.direction === "asc" ? "sorted-asc" : "sorted-desc");
-      if (i > 0) th.classList.add("sorted-secondary");
+      th.classList.add(
+        criterion.direction === "asc" ? "sorted-asc" : "sorted-desc"
+      );
+
+      if (i > 0) {
+        th.classList.add("sorted-secondary");
+      }
 
       th.querySelector(".sort-indicator").textContent =
         criterion.direction === "asc" ? "▲" : "▼";
@@ -101,26 +119,73 @@ document.addEventListener("DOMContentLoaded", function () {
     rows.sort((a, b) => compareRows(a, b, sortState));
 
     rows.forEach(row => tbody.appendChild(row));
+
     updateIndicators();
+  }
+
+  function filterTable() {
+    const query = searchInput.value.trim().toLowerCase();
+
+    Array.from(tbody.querySelectorAll("tr")).forEach(row => {
+      const text = row.textContent.toLowerCase();
+
+      const name = getCellValue(row, 0);
+      const firstLetter = name.charAt(0).toUpperCase();
+
+      const matchesSearch = text.includes(query);
+      const matchesLetter =
+        activeLetter === "" || firstLetter === activeLetter;
+
+      row.style.display =
+        matchesSearch && matchesLetter ? "" : "none";
+    });
+  }
+
+  function updateAlphabetAvailability() {
+    const existingLetters = new Set(
+      Array.from(tbody.querySelectorAll("tr"))
+        .map(row => getCellValue(row, 0).charAt(0).toUpperCase())
+    );
+
+    alphabetButtons.forEach(button => {
+      const letter = button.dataset.letter;
+
+      if (letter === "") return;
+
+      button.disabled = !existingLetters.has(letter);
+    });
   }
 
   headers.forEach(th => {
     th.addEventListener("click", function (event) {
       const column = th.dataset.column;
-      const existingIndex = sortState.findIndex(x => x.column === column);
+      const existingIndex = sortState.findIndex(
+        x => x.column === column
+      );
 
       if (event.shiftKey) {
         if (existingIndex >= 0) {
           sortState[existingIndex].direction =
-            sortState[existingIndex].direction === "asc" ? "desc" : "asc";
+            sortState[existingIndex].direction === "asc"
+              ? "desc"
+              : "asc";
         } else {
-          sortState.push({ column, direction: "asc" });
+          sortState.push({
+            column,
+            direction: "asc"
+          });
         }
       } else {
         if (existingIndex >= 0 && sortState.length === 1) {
-          sortState[0].direction = sortState[0].direction === "asc" ? "desc" : "asc";
+          sortState[0].direction =
+            sortState[0].direction === "asc"
+              ? "desc"
+              : "asc";
         } else {
-          sortState = [{ column, direction: "asc" }];
+          sortState = [{
+            column,
+            direction: "asc"
+          }];
         }
       }
 
@@ -128,13 +193,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  searchInput.addEventListener("input", function () {
-    const query = searchInput.value.trim().toLowerCase();
+  searchInput.addEventListener("input", filterTable);
 
-    Array.from(tbody.querySelectorAll("tr")).forEach(row => {
-      const text = row.textContent.toLowerCase();
-      row.style.display = text.includes(query) ? "" : "none";
+  alphabetButtons.forEach(button => {
+    button.addEventListener("click", function () {
+      activeLetter = button.dataset.letter;
+
+      alphabetButtons.forEach(b =>
+        b.classList.remove("active")
+      );
+
+      button.classList.add("active");
+
+      filterTable();
     });
   });
+
+  updateAlphabetAvailability();
 });
 </script>
