@@ -2,9 +2,6 @@
 """
 Synchronise the public OMGN mailing-list data from Airtable.
 
-The Airtable token is NEVER stored in this file. It must be supplied through
-the AIRTABLE_TOKEN environment variable (e.g. a GitHub Actions secret).
-
 Required environment variables:
     AIRTABLE_TOKEN
     AIRTABLE_BASE_ID
@@ -13,13 +10,17 @@ Required environment variables:
 Output:
     _data/mailing_list.yml
 
-Only the following Airtable fields are exported:
-    - "NOM, Prénom"
+Only these Airtable fields are requested:
+    - "Last name"
+    - "First name"
     - "Institution"
     - "Country"
 
-In particular, email addresses and all other Airtable fields are deliberately
-excluded from the generated public file.
+Email addresses and all other fields are deliberately excluded.
+
+Duplicate public entries are collapsed by normalized first name + last name.
+When duplicate records exist, institution and country are merged so that
+the most complete public information is preserved.
 """
 
 import json
@@ -27,13 +28,14 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+import unicodedata
 from pathlib import Path
-
 
 API_ROOT = "https://api.airtable.com/v0"
 
-NAME_FIELD = "LAST NAME, First name"
-INSTITUTION_FIELD = "Institute"
+LAST_NAME_FIELD = "Last name"
+FIRST_NAME_FIELD = "First name"
+INSTITUTION_FIELD = "Institution"
 COUNTRY_FIELD = "Country"
 
 OUTPUT_FILE = Path("_data/mailing_list.yml")
@@ -63,19 +65,14 @@ def airtable_get(url: str, token: str) -> dict:
 
 
 def fetch_records(token: str, base_id: str, table_id: str) -> list[dict]:
-    """
-    Fetch all records from Airtable, following pagination.
-
-    fields[] is used deliberately so that fields such as email addresses are
-    not even requested from Airtable by this synchronisation script.
-    """
     records = []
     offset = None
 
     while True:
         params = [
             ("pageSize", "100"),
-            ("fields[]", NAME_FIELD),
+            ("fields[]", LAST_NAME_FIELD),
+            ("fields[]", FIRST_NAME_FIELD),
             ("fields[]", INSTITUTION_FIELD),
             ("fields[]", COUNTRY_FIELD),
         ]
@@ -97,77 +94,94 @@ def fetch_records(token: str, base_id: str, table_id: str) -> list[dict]:
     return records
 
 
-def split_name(raw_name: str) -> tuple[str, str, str]:
-    """
-    Parse the Airtable field 'NOM, Prénom'.
+def clean_text(value) -> str:
+    return " ".join(str(value or "").split())
 
-    Expected form:
-        DUPONT, Jean  -> last_name='DUPONT', first_name='Jean'
 
-    If no comma is present, the value is kept intact:
-        Cher          -> last_name='Cher', first_name=''
-
-    display_name is included now to make the later transition to a single
-    Name column straightforward.
-    """
-    raw_name = " ".join(str(raw_name or "").split())
-
-    if "," in raw_name:
-        last_name, first_name = raw_name.split(",", 1)
-        last_name = last_name.strip().upper()
-        first_name = first_name.strip()
-        display_name = " ".join(part for part in (last_name, first_name) if part)
-    else:
-        last_name = raw_name
-        first_name = ""
-        display_name = raw_name
-
-    return last_name, first_name, display_name
+def normalize_for_comparison(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", clean_text(value))
+    without_marks = "".join(
+        ch for ch in normalized if not unicodedata.combining(ch)
+    )
+    return without_marks.casefold()
 
 
 def yaml_string(value: str) -> str:
-    """
-    Return a safely quoted YAML scalar.
-
-    JSON double-quoted strings are valid YAML scalars, so this avoids adding
-    a PyYAML dependency to the repository.
-    """
     return json.dumps(str(value or ""), ensure_ascii=False)
 
 
+def choose_more_complete(old: str, new: str) -> str:
+    old = clean_text(old)
+    new = clean_text(new)
+
+    if not old:
+        return new
+    if not new:
+        return old
+    if old == new:
+        return old
+
+    return new if len(new) > len(old) else old
+
+
 def normalise_records(records: list[dict]) -> list[dict]:
-    public_records = []
+    unique = {}
 
     for record in records:
         fields = record.get("fields", {})
 
-        raw_name = fields.get(NAME_FIELD, "")
-        institution = fields.get(INSTITUTION_FIELD, "")
-        country = fields.get(COUNTRY_FIELD, "")
+        last_name = clean_text(fields.get(LAST_NAME_FIELD, "")).upper()
+        first_name = clean_text(fields.get(FIRST_NAME_FIELD, ""))
+        institution = clean_text(fields.get(INSTITUTION_FIELD, ""))
+        country = clean_text(fields.get(COUNTRY_FIELD, ""))
 
-        last_name, first_name, display_name = split_name(raw_name)
-
-        # Ignore completely empty rows.
-        if not any((display_name, institution, country)):
+        if not any((last_name, first_name, institution, country)):
             continue
 
-        public_records.append(
-            {
-                "last_name": last_name,
-                "first_name": first_name,
-                "display_name": display_name,
-                "affiliation_main": " ".join(str(institution or "").split()),
-                "country": " ".join(str(country or "").split()),
-                # Compatible with the current Liquid sort in mailing-list.md.
-                "sort_name": (last_name or display_name).casefold(),
-            }
+        display_name = (
+            f"{last_name}, {first_name}"
+            if last_name and first_name
+            else last_name or first_name
         )
+
+        key = (
+            normalize_for_comparison(last_name),
+            normalize_for_comparison(first_name),
+        )
+
+        if not any(key):
+            key = ("__airtable_record__", record.get("id", ""))
+
+        current = {
+            "last_name": last_name,
+            "first_name": first_name,
+            "display_name": display_name,
+            "affiliation_main": institution,
+            "country": country,
+            "sort_name": normalize_for_comparison(last_name or first_name),
+        }
+
+        if key not in unique:
+            unique[key] = current
+            continue
+
+        existing = unique[key]
+        existing["affiliation_main"] = choose_more_complete(
+            existing["affiliation_main"],
+            current["affiliation_main"],
+        )
+        existing["country"] = choose_more_complete(
+            existing["country"],
+            current["country"],
+        )
+
+    public_records = list(unique.values())
 
     public_records.sort(
         key=lambda person: (
             person["sort_name"],
-            person["first_name"].casefold(),
-            person["affiliation_main"].casefold(),
+            normalize_for_comparison(person["first_name"]),
+            normalize_for_comparison(person["affiliation_main"]),
         )
     )
 
@@ -209,7 +223,9 @@ def main() -> int:
         write_yaml(public_records, OUTPUT_FILE)
 
         print(
-            f"Updated {OUTPUT_FILE} with {len(public_records)} public mailing-list entries."
+            f"Updated {OUTPUT_FILE}: "
+            f"{len(records)} Airtable records -> "
+            f"{len(public_records)} unique public entries."
         )
         return 0
 
