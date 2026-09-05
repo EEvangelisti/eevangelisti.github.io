@@ -5,12 +5,12 @@ title: Mailing list
 
 The OMGN is open to all researchers with an interest in oomycetes, from disciplines ranging from molecular genetics and genomics to biology, population biology, and ecology, at either an experimental or a computational level. Investigators new to the field are always welcome, for example, those interested in saprophytes and animal pathogens.
 
-## Joining the OMGN community
+### Joining the OMGN community
 - To join the community, fill in <a href="https://airtable.com/app4z85HJOGeEMGUc/shrsOfTvREXfUnwoT" target="_blank" rel="noopener">this form</a>.
 - Your name and affiliation will appear in the list below. It is updated every hour. Please allow some time for recent registrations or changes to appear.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
 
-## Mailing list
+### Mailing list
 After your registration with the OMGN community has been reviewed, you will 
 receive an invitation to join our mailing list, hosted on Google Groups. 
 Invitations are sent manually, so please allow some time for processing.
@@ -18,6 +18,9 @@ Invitations are sent manually, so please allow some time for processing.
 Once you have joined, you can email the entire mailing list at
 <b>omgn-users AT googlegroups DOT com</b>. Standard mailing-list netiquette 
 applies.
+
+
+### OMGN community members
 
 <div class="mailing-list-controls">
   <input
