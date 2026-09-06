@@ -1,7 +1,10 @@
-title: OMGN
+title: Oomycete Molecular Genetics Network
+acronym: OMGN
+
 description: >
-  The Oomycete Molecular Genetics Network (OMGN) is an international community
-  dedicated to molecular genetics, functional genomics, and cell biology of oomycetes.
+  The Oomycete Molecular Genetics Network (OMGN) is an international scientific
+  community dedicated to oomycete molecular genetics, genomics, cell biology,
+  evolution, plant pathology, and the development of research tools and resources.
 
 theme: minima
 lang: en
@@ -9,7 +12,12 @@ lang: en
 url: "https://oomycetes.com"
 baseurl: ""
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 collections:
   pages:
     output: true
-    permalink: /:name/
+
+permalink: /:name/
