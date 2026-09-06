@@ -19,4 +19,10 @@ collections:
   pages:
     output: true
 
+header_pages:
+  - _pages/oomycetes.md
+  - _pages/community.md
+  - _pages/meetings.md
+  - _pages/committee.md
+
 permalink: /:name/
