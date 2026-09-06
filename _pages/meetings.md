@@ -8,7 +8,13 @@ description: >
 permalink: /meetings/
 ---
 
-The OMGN network aims to provide a platform for discussion ranging from fundamental cell biology to translational plant protection strategies.
+The **Oomycete Molecular Genetics Network (OMGN) meetings** are international
+scientific conferences bringing together researchers working across oomycete
+biology, from molecular genetics, genomics and cell biology to evolution,
+ecology and translational plant protection. OMGN meetings provide a forum for 
+presenting new research, exchanging methods and resources, establishing 
+collaborations, and supporting interactions between early-career and 
+established researchers.
 
 <span style="color: firebrick;"><b>Update (February 2026): Discussions are currently ongoing regarding the next OMGN meeting. Stay tuned!</b></span>
 
