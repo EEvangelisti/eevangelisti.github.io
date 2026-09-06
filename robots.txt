@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oomycetes.com/sitemap.xml
