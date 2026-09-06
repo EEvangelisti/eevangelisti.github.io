@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Steering Committee
+description: >
+  Steering Committee of the Oomycete Molecular Genetics Network (OMGN),
+  coordinating the international oomycete research community and its scientific meetings.
+permalink: /committee/
 ---
 
-## Gouvernance
+## Governance
 The OMGN is governed by a Steering Committee, hereafter named OMGN-SC. The 
 OMGN-SC has twelve members and two *ex officio* members. The members are either 
 elected by the participants of the OMGN meeting or selected by the 
