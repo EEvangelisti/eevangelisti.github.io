@@ -23,6 +23,8 @@ Once you have joined, you can email the entire mailing list at
 <b>omgn-users AT googlegroups DOT com</b>. Standard mailing-list netiquette 
 applies.
 
+<span style="color: firebrick;"><b>Update (Sept. 2026): we are migrating the mailing list to Google Groups. This will take a bit of time.</b></span>
+
 
 ### OMGN community members
 
