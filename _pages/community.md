@@ -20,7 +20,7 @@ receive an invitation to join our mailing list, hosted on Google Groups.
 Invitations are sent manually, so please allow some time for processing.
 
 Once you have joined, you can email the entire mailing list at
-<b>omgn-users AT googlegroups DOT com</b>. Standard mailing-list netiquette 
+<b>omgn-users AT oomycetes DOT com</b>. Standard mailing-list netiquette 
 applies.
 
 <span style="color: firebrick;"><b>Update (Sept. 2026): we are migrating the mailing list to Google Groups. This will take a bit of time.</b></span>
