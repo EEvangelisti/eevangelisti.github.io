@@ -9,8 +9,7 @@ permalink: /oomycetes/
 
 <div class="info-box"> <b>Help us improve this page.</b><br> This page is intended to increase the visibility of oomycete research and to provide a clear introduction to the organisms studied by the OMGN community.
 
-Contributions from the community are very welcome. If you would like to suggest additional content, references, illustrations, photographs or other resources, please contact us at
-<a href="mailto:contact@oomycetes.com">contact@oomycetes.com</a>.
+Contributions from the community are very welcome. If you would like to suggest additional content, references, illustrations, photographs or other resources, please <a href="mailto:contact@oomycetes.com">contact us</a>.
 
 </div>
 
