@@ -16,12 +16,10 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 
 ### Mailing list
 After your registration with the OMGN community has been reviewed, you will 
-receive an invitation to join our mailing list, hosted on Google Groups. 
-Invitations are sent manually, so please allow some time for processing.
-
-Once you have joined, you can email the entire mailing list at
-<b>omgn-users AT oomycetes DOT com</b>. Standard mailing-list netiquette 
-applies.
+be added to our mailing list. Emails are added manually, so please allow 
+some time for processing. Once you have joined, you can email the entire 
+mailing list at <b>omgn-users AT oomycetes DOT com</b>. Standard mailing-list 
+netiquette applies.
 
 
 ### OMGN community members
