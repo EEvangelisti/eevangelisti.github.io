@@ -7,6 +7,12 @@ description: >
 permalink: /oomycetes/
 ---
 
+<div class="info-box"> <b>Help us improve this page.</b><br> This page is intended to increase the visibility of oomycete research and to provide a clear introduction to the organisms studied by the OMGN community.
+
+Contributions from the community are very welcome. If you would like to suggest additional content, references, illustrations, photographs or other resources, please <a href="{{ site.baseurl }}/community">get in touch</a>.
+
+</div>
+
 Oomycetes are a diverse group of filamentous eukaryotic microorganisms found
 in terrestrial, freshwater and marine environments. Although their filamentous
 growth often resembles that of fungi, oomycetes belong to the stramenopiles
