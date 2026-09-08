@@ -24,13 +24,4 @@ netiquette applies.
 
 ### OMGN community members
 
-<iframe
-  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKiOCjff-5hlj0zK9Rcd-wz1T04xm386gDVt8cz9TsZmct47NSaYd9BEsNYVpURTqEMCwREREKR9_f/pubhtml?gid=1912995532&amp;single=true&amp;widget=true&amp;headers=false&rm=minimal"
-    width="100%" 
-  height="700" 
-  frameborder="0" 
-  style="border: 1px solid #ccc; border-radius: 4px;">
-</iframe>
-
-
-
+<iframe referrerpolicy="no-referrer-when-downgrade" height="600px" width="100%" style="border:none;" src="https://view-awesome-table.com/-P1-4azLRMzFupnpVUmj/view"></iframe>
