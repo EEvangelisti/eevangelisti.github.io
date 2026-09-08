@@ -1,7 +1,6 @@
 ---
 layout: home
 title: OMGN
-title_full: Oomycete Molecular Genetics Network (OMGN)
 description: >
   The Oomycete Molecular Genetics Network connects researchers working on
   oomycete molecular genetics, genomics, cell biology, evolution and plant pathology.
