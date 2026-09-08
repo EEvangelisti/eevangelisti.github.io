@@ -20,7 +20,8 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 <iframe 
   referrerpolicy="no-referrer-when-downgrade" 
   height="750px" 
-  width="110%" 
-  style="border:none; margin-left: -5%; margin-right: -5%; max-width: none;" 
+  style="border:none; width: 100vw; max-width: 1300px; margin-left: calc(50% - 50vw); display: block;" 
   src="https://view-awesome-table.com/-P1-4azLRMzFupnpVUmj/view">
 </iframe>
+
+
