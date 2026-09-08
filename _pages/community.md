@@ -10,6 +10,7 @@ permalink: /community/
 The OMGN is open to all researchers with an interest in oomycetes, from disciplines ranging from molecular genetics and genomics to biology, population biology, and ecology, at either an experimental or a computational level. Investigators new to the field are always welcome, for example, those interested in saprophytes and animal pathogens.
 
 ### Joining the OMGN community
+# The new form will be: https://forms.gle/zkMqH8MnewXnbmM99
 - To join the community, fill in <a href="https://airtable.com/app4z85HJOGeEMGUc/shrsOfTvREXfUnwoT" target="_blank" rel="noopener">this form</a>.
 - Your name and affiliation will appear in the list below. It is updated every hour. Please allow some time for recent registrations or changes to appear.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
