@@ -15,6 +15,10 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 - You will automatically be added to the mailing list <b>omgn-users AT oomycetes DOT com</b>.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
 
+<span style="color: firebrick;"><b>Temporary mailing list issue</b>: The OMGN mailing list is currently 
+affected by a temporary anti-spam filtering restriction. We are working to 
+restore normal delivery as soon as possible. Thank you for your patience.</span>
+
 ### OMGN community members
 
 <iframe 
