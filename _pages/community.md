@@ -12,12 +12,9 @@ The OMGN is open to all researchers with an interest in oomycetes, from discipli
 ### Joining the OMGN community
 - To join the community, fill in <a href="https://forms.gle/zkMqH8MnewXnbmM99" target="_blank" rel="noopener">this form</a>. That's it!
 - Your name and affiliation will appear in the list below.
-- You will automatically be added to the mailing list <b>omgn-users AT oomycetes DOT com</b>.
+- You will automatically be added to the mailing list <b>users (at) omgn.groups.io</b>.
 - To update your information or request removal, <a href="mailto:contact@oomycetes.com">contact us</a>.
 
-<span style="color: firebrick;"><b>Temporary mailing list issue</b>: The OMGN mailing list is currently 
-affected by a temporary anti-spam filtering restriction. We are working to 
-restore normal delivery as soon as possible. Thank you for your patience.</span>
 
 ### OMGN community members
 
