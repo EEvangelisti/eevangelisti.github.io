@@ -104,3 +104,23 @@
   // Optionnel
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
+
+.announcement-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  background: #eaf7ec;
+  border-left: 4px solid #4caf50;
+  color: #1f5e2e;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0 1.5rem 0;
+  border-radius: 8px;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.announcement-icon {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
