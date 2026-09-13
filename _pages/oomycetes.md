@@ -3,7 +3,7 @@ layout: page
 title: Oomycetes
 description: >
   An introduction to oomycetes, their biology, evolution, molecular genetics,
-  genomics and importance as plant, animal and microbial pathogens and environmental organisms.
+  genomics, diversity and importance as pathogens and environmental organisms.
 permalink: /oomycetes/
 ---
 

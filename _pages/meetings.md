@@ -4,7 +4,7 @@ title: Meetings
 description: >
   International meetings of the Oomycete Molecular Genetics Network (OMGN),
   bringing together researchers in oomycete genetics, genomics, cell biology,
-  evolution, ecology and plant pathology.
+  evolution and plant pathology.
 permalink: /meetings/
 ---
 
