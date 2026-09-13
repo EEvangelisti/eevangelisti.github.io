@@ -11,6 +11,14 @@ lang: en
 url: "https://oomycetes.com"
 baseurl: ""
 
+logo: /assets/images/logo.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
