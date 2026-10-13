@@ -18,9 +18,14 @@
   }
   if (!window.supabase) { setStatus('Unable to load the discussion service. Please try again later.'); return; }
   const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {auth: {persistSession: false, autoRefreshToken: false}});
-  const voterKey = 'omgn_ideas_visitor_id';
-  let visitorId = localStorage.getItem(voterKey);
-  if (!visitorId) { visitorId = crypto.randomUUID(); localStorage.setItem(voterKey, visitorId); }
+  // Private 256-bit browser secret; never exposed in public vote queries.
+  const voterKey = 'omgn_ideas_vote_secret_v2';
+  let voteSecret = localStorage.getItem(voterKey);
+  if (!voteSecret || !/^[0-9a-f]{64}$/.test(voteSecret)) {
+    const bytes = crypto.getRandomValues(new Uint8Array(32));
+    voteSecret = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('');
+    localStorage.setItem(voterKey, voteSecret);
+  }
   CATEGORIES.forEach(c => { const option = document.createElement('option'); option.value = c; option.textContent = c; filter.append(option); });
   const el = (tag, cls, txt) => { const node = document.createElement(tag); if(cls) node.className = cls; if(txt !== undefined) node.textContent = txt; return node; };
   const date = s => new Date(s).toLocaleDateString('en', {year:'numeric', month:'short', day:'numeric'});
@@ -31,19 +36,17 @@
     if (error) { setStatus(errorMessage(error)); return; }
     const ids = ideas.map(x => x.id);
     let votes = [], comments = [];
-    if (ids.length) {
-      const [vr, cr] = await Promise.all([
-        db.from('idea_votes').select('idea_id,value,visitor_id').in('idea_id', ids),
-        db.from('idea_comments').select('id,idea_id,parent_id,body,created_at').in('idea_id', ids).order('created_at',{ascending:true})
-      ]);
-      if (vr.error || cr.error) { setStatus('Could not load votes or comments.'); return; }
-      votes = vr.data; comments = cr.data;
-    }
-    const filtered = ideas.filter(x => !filter.value || x.category === filter.value).map(x => ({...x,
-      up: votes.filter(v => v.idea_id === x.id && v.value === 1).length,
-      down: votes.filter(v => v.idea_id === x.id && v.value === -1).length,
-      mine: votes.find(v => v.idea_id === x.id && v.visitor_id === visitorId)?.value || 0
-    }));
+    const [vr, cr] = await Promise.all([
+      db.rpc('omgn_vote_state', {p_token: voteSecret}),
+      ids.length ? db.from('idea_comments').select('id,idea_id,parent_id,body,created_at').in('idea_id', ids).order('created_at',{ascending:true}) : Promise.resolve({data:[],error:null})
+    ]);
+    if (vr.error || cr.error) { setStatus('Could not load votes or comments.'); return; }
+    votes = vr.data || []; comments = cr.data || [];
+    const byId = new Map(votes.map(v => [v.idea_id,v]));
+    const filtered = ideas.filter(x => !filter.value || x.category === filter.value).map(x => {
+      const v = byId.get(x.id);
+      return {...x, up: Number(v?.upvotes || 0), down: Number(v?.downvotes || 0), mine: Number(v?.my_vote || 0)};
+    });
     if (sort.value === 'top') filtered.sort((a,b) => (b.up-b.down)-(a.up-a.down) || new Date(b.created_at)-new Date(a.created_at));
     list.replaceChildren();
     for (const idea of filtered) list.append(renderIdea(idea, comments.filter(c => c.idea_id === idea.id)));
@@ -51,23 +54,16 @@
   }
   const pendingVotes = new Set();
   async function vote(idea, value) {
-    if (idea.mine || pendingVotes.has(idea.id)) {
-      if (idea.mine) setStatus('You have already voted on this idea.');
-      return;
-    }
+    if (pendingVotes.has(idea.id)) return;
     pendingVotes.add(idea.id);
+    const newValue = idea.mine === value ? 0 : value;
     try {
-      const {error} = await db.from('idea_votes').insert({
-        idea_id: idea.id, visitor_id: visitorId, value
+      const {error} = await db.rpc('omgn_cast_vote', {
+        p_idea_id: idea.id, p_token: voteSecret, p_value: newValue
       });
-      if (error) {
-        setStatus(error.code === '23505' ? 'You have already voted on this idea.' : errorMessage(error));
-      } else {
-        await load();
-      }
-    } finally {
-      pendingVotes.delete(idea.id);
-    }
+      if (error) setStatus(errorMessage(error));
+      else await load();
+    } finally { pendingVotes.delete(idea.id); }
   }
   async function publishComment(ideaId, parentId, input) {
     const body = input.value.trim(); if (!body) return;
@@ -84,13 +80,13 @@
       const chosen = idea.mine === value;
       const b = el('button', chosen ? (value === 1 ? 'vote-chosen-up' : 'vote-chosen-down') : (idea.mine ? 'vote-inactive' : ''), `${symbol} ${count}`);
       b.type = 'button';
-      b.disabled = Boolean(idea.mine);
+      b.disabled = pendingVotes.has(idea.id);
       b.setAttribute('aria-label', value === 1 ? 'Upvote' : 'Downvote');
       b.setAttribute('aria-pressed', String(chosen));
       b.addEventListener('click', () => vote(idea,value));
       controls.append(b);
     }
-    if (idea.mine) controls.append(el('span','vote-confirmation','✓ Vote recorded'));
+    if (idea.mine) controls.append(el('span','vote-confirmation','✓ Vote recorded · click again to remove'));
     card.append(controls);
     const details = el('details','idea-discussion');
     const summary = el('summary','',`Discussion (${comments.length})`); details.append(summary);
