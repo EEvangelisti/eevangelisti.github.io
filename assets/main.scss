@@ -148,3 +148,12 @@
 .idea-comment-form { margin-top: .75rem; }
 .idea-comment-form button { margin-top: .4rem; }
 #ideas-status { color: #56636d; font-size: .9rem; }
+/* OMGN Community Ideas — vote confirmation */
+.idea-votes { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.idea-votes button:disabled { opacity: 1; cursor: default; }
+.idea-votes .vote-chosen-up,
+.idea-votes .vote-chosen-up:disabled { background: #e1f3e6; color: #176534; border: 1px solid #3b9c60; font-weight: 700; }
+.idea-votes .vote-chosen-down,
+.idea-votes .vote-chosen-down:disabled { background: #fce6e6; color: #a32929; border: 1px solid #c65a5a; font-weight: 700; }
+.idea-votes .vote-inactive:disabled { opacity: .45; }
+.idea-votes .vote-confirmation { font-size: .85rem; color: #176534; font-weight: 600; }
