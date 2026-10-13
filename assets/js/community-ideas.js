@@ -81,10 +81,16 @@
     if (idea.description) card.append(el('p','idea-description',idea.description));
     const controls = el('div','idea-votes');
     for (const [value,symbol,count] of [[1,'👍',idea.up],[-1,'👎',idea.down]]) {
-      const b = el('button',idea.mine === value ? 'selected' : '',`${symbol} ${count}`);
-      b.type = 'button'; b.disabled = Boolean(idea.mine); b.setAttribute('aria-label',value === 1 ? 'Upvote' : 'Downvote');
-      b.setAttribute('aria-pressed',String(idea.mine === value)); b.addEventListener('click',()=>vote(idea,value)); controls.append(b);
+      const chosen = idea.mine === value;
+      const b = el('button', chosen ? (value === 1 ? 'vote-chosen-up' : 'vote-chosen-down') : (idea.mine ? 'vote-inactive' : ''), `${symbol} ${count}`);
+      b.type = 'button';
+      b.disabled = Boolean(idea.mine);
+      b.setAttribute('aria-label', value === 1 ? 'Upvote' : 'Downvote');
+      b.setAttribute('aria-pressed', String(chosen));
+      b.addEventListener('click', () => vote(idea,value));
+      controls.append(b);
     }
+    if (idea.mine) controls.append(el('span','vote-confirmation','✓ Vote recorded'));
     card.append(controls);
     const details = el('details','idea-discussion');
     const summary = el('summary','',`Discussion (${comments.length})`); details.append(summary);
