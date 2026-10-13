@@ -218,4 +218,20 @@
   position: relative;
 }
 
+/* OMGN — Full-width header with right-aligned menu */
+.site-header > .wrapper {
+  max-width: none !important;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
 
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header .site-nav {
+  margin-left: auto !important;
+  float: none !important;
+}
