@@ -123,3 +123,28 @@
   line-height: 1.2;
   flex-shrink: 0;
 }
+
+/* OMGN Community Ideas */
+.ideas-app { margin: 1.5rem 0 3rem; }
+.ideas-form, .idea-card { padding: 1.2rem; margin-bottom: 1.1rem; border: 1px solid #d9dfe5; border-radius: 9px; background: #fff; }
+.ideas-form h2 { margin-top: 0; }
+.ideas-form label { display: block; margin: .7rem 0 .25rem; font-weight: 600; }
+.ideas-form input, .ideas-form textarea, .ideas-form select, .idea-comment-form textarea { box-sizing: border-box; width: 100%; padding: .6rem; border: 1px solid #bfc8d1; border-radius: 5px; font: inherit; }
+.ideas-app button { cursor: pointer; border: 1px solid #9aabb9; border-radius: 5px; padding: .4rem .75rem; background: #f5f7f9; font: inherit; }
+.ideas-app button:hover, .ideas-app button.selected { background: #dcebf7; border-color: #477b9c; }
+.ideas-app button:disabled { opacity: .55; cursor: wait; }
+.ideas-form > button { margin-top: .8rem; }
+.ideas-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 1.5rem 0 .6rem; }
+.ideas-toolbar select { max-width: 100%; padding: .35rem; margin-right: .8rem; }
+.idea-meta, .idea-comment small { font-size: .82rem; color: #65727e; }
+.idea-title { margin: .35rem 0; }
+.idea-description, .idea-comment p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.idea-votes { display: flex; gap: .5rem; margin: .8rem 0; }
+.idea-discussion { border-top: 1px solid #e7ebef; padding-top: .65rem; }
+.idea-discussion summary { cursor: pointer; font-weight: 600; }
+.idea-comment { border-left: 2px solid #dce2e8; padding: .5rem .7rem; margin-top: .6rem; }
+.idea-comment p { margin: .25rem 0; }
+.idea-reply { font-size: .85rem !important; }
+.idea-comment-form { margin-top: .75rem; }
+.idea-comment-form button { margin-top: .4rem; }
+#ideas-status { color: #56636d; font-size: .9rem; }
