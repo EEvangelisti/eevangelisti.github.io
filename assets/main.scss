@@ -167,7 +167,7 @@
   min-height: 55px;
 }
 .omgn-header-inner .site-title { float: none; }
-.omgn-nav { position: relative; margin-left: 1rem; }
+.omgn-nav { position: relative; margin-left: auto; flex: 0 0 auto; }
 .omgn-dropdown { position: relative; }
 .omgn-dropdown > summary {
   list-style: none;
@@ -205,33 +205,23 @@
 .omgn-dropdown-panel a:hover,
 .omgn-dropdown-panel a:focus-visible { background: #f1f4f7; text-decoration: none; }
 
-/* OMGN — Align dropdown menu to the right */
-.site-header .wrapper {
+
+/* Full-width header only; the page and footer keep Minima's layout. */
+.site-header > .wrapper.omgn-header-inner {
+  max-width: none;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.site-header .site-nav {
-  margin-left: auto;
+.site-header .omgn-header-inner > .site-title {
   float: none;
-  position: relative;
+  flex: 0 0 auto;
 }
-
-/* OMGN — Full-width header with right-aligned menu */
-.site-header > .wrapper {
-  max-width: none !important;
-  width: 100%;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  display: flex !important;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.site-header .site-nav {
-  margin-left: auto !important;
-  float: none !important;
+.site-header .omgn-header-inner > .omgn-nav {
+  margin-left: auto;
+  flex: 0 0 auto;
 }
