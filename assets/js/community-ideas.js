@@ -1,0 +1,108 @@
+/* OMGN Community Ideas — configure the two public values below. */
+(() => {
+  'use strict';
+  const SUPABASE_URL = 'https://yocvlymzetposjbrfhcb.supabase.co';
+  const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_mtQTzI7bimkoydS2G25Gsw_OIMU0M2w';
+  const CATEGORIES = ['Research Topics', 'Methods & Protocols', 'Tools & Resources', 'Collaborations', 'Events & Training', 'Community & Other'];
+  const root = document.getElementById('omgn-ideas');
+  if (!root) return;
+  const status = document.getElementById('ideas-status');
+  const list = document.getElementById('ideas-list');
+  const filter = document.getElementById('ideas-filter');
+  const sort = document.getElementById('ideas-sort');
+  const setStatus = msg => { status.textContent = msg; };
+  if (SUPABASE_URL.startsWith('PASTE_') || SUPABASE_PUBLISHABLE_KEY.startsWith('PASTE_')) {
+    setStatus('Community Ideas is being configured. Please check back soon.');
+    document.getElementById('idea-form').hidden = true;
+    return;
+  }
+  if (!window.supabase) { setStatus('Unable to load the discussion service. Please try again later.'); return; }
+  const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {auth: {persistSession: false, autoRefreshToken: false}});
+  const voterKey = 'omgn_ideas_visitor_id';
+  let visitorId = localStorage.getItem(voterKey);
+  if (!visitorId) { visitorId = crypto.randomUUID(); localStorage.setItem(voterKey, visitorId); }
+  CATEGORIES.forEach(c => { const option = document.createElement('option'); option.value = c; option.textContent = c; filter.append(option); });
+  const el = (tag, cls, txt) => { const node = document.createElement(tag); if(cls) node.className = cls; if(txt !== undefined) node.textContent = txt; return node; };
+  const date = s => new Date(s).toLocaleDateString('en', {year:'numeric', month:'short', day:'numeric'});
+  const errorMessage = e => /rate|limit/i.test(e.message || '') ? 'Please wait before posting again.' : 'Sorry, the operation failed. Please try again.';
+  async function load() {
+    setStatus('Loading ideas…');
+    const {data: ideas, error} = await db.from('ideas').select('id,title,category,description,created_at').order('created_at',{ascending:false}).limit(200);
+    if (error) { setStatus(errorMessage(error)); return; }
+    const ids = ideas.map(x => x.id);
+    let votes = [], comments = [];
+    if (ids.length) {
+      const [vr, cr] = await Promise.all([
+        db.from('idea_votes').select('idea_id,value,visitor_id').in('idea_id', ids),
+        db.from('idea_comments').select('id,idea_id,parent_id,body,created_at').in('idea_id', ids).order('created_at',{ascending:true})
+      ]);
+      if (vr.error || cr.error) { setStatus('Could not load votes or comments.'); return; }
+      votes = vr.data; comments = cr.data;
+    }
+    const filtered = ideas.filter(x => !filter.value || x.category === filter.value).map(x => ({...x,
+      up: votes.filter(v => v.idea_id === x.id && v.value === 1).length,
+      down: votes.filter(v => v.idea_id === x.id && v.value === -1).length,
+      mine: votes.find(v => v.idea_id === x.id && v.visitor_id === visitorId)?.value || 0
+    }));
+    if (sort.value === 'top') filtered.sort((a,b) => (b.up-b.down)-(a.up-a.down) || new Date(b.created_at)-new Date(a.created_at));
+    list.replaceChildren();
+    for (const idea of filtered) list.append(renderIdea(idea, comments.filter(c => c.idea_id === idea.id)));
+    setStatus(`${filtered.length} idea${filtered.length === 1 ? '' : 's'}`);
+  }
+  async function vote(idea, value) {
+    const newValue = idea.mine === value ? 0 : value;
+    const result = newValue === 0
+      ? await db.from('idea_votes').delete().eq('idea_id',idea.id).eq('visitor_id',visitorId)
+      : await db.from('idea_votes').upsert({idea_id:idea.id,visitor_id:visitorId,value:newValue},{onConflict:'idea_id,visitor_id'});
+    if (result.error) setStatus(errorMessage(result.error)); else await load();
+  }
+  async function publishComment(ideaId, parentId, input) {
+    const body = input.value.trim(); if (!body) return;
+    const {error} = await db.from('idea_comments').insert({idea_id:ideaId,parent_id:parentId,body});
+    if (error) setStatus(errorMessage(error)); else await load();
+  }
+  function renderIdea(idea, comments) {
+    const card = el('article','idea-card');
+    const meta = el('div','idea-meta',`${idea.category} · ${date(idea.created_at)}`);
+    card.append(meta, el('h3','idea-title',idea.title));
+    if (idea.description) card.append(el('p','idea-description',idea.description));
+    const controls = el('div','idea-votes');
+    for (const [value,symbol,count] of [[1,'👍',idea.up],[-1,'👎',idea.down]]) {
+      const b = el('button',idea.mine === value ? 'selected' : '',`${symbol} ${count}`);
+      b.type = 'button'; b.setAttribute('aria-label',value === 1 ? 'Upvote' : 'Downvote');
+      b.setAttribute('aria-pressed',String(idea.mine === value)); b.addEventListener('click',()=>vote(idea,value)); controls.append(b);
+    }
+    card.append(controls);
+    const details = el('details','idea-discussion');
+    const summary = el('summary','',`Discussion (${comments.length})`); details.append(summary);
+    const thread = el('div','idea-thread');
+    function commentNode(c, depth=0) {
+      const node = el('div','idea-comment'); node.style.marginLeft = `${Math.min(depth,5)*14}px`;
+      node.append(el('small','',date(c.created_at)),el('p','',c.body));
+      const reply = el('button','idea-reply','Reply'); reply.type='button';
+      reply.addEventListener('click',()=>{reply.remove(); node.append(commentForm(idea.id,c.id));});
+      node.append(reply);
+      for(const child of comments.filter(x=>x.parent_id===c.id)) node.append(commentNode(child,depth+1));
+      return node;
+    }
+    comments.filter(x=>!x.parent_id || !comments.some(y=>y.id===x.parent_id)).forEach(c=>thread.append(commentNode(c)));
+    details.append(thread,commentForm(idea.id,null)); card.append(details); return card;
+  }
+  function commentForm(ideaId,parentId) {
+    const form = el('form','idea-comment-form'); const input = el('textarea');
+    input.required=true; input.maxLength=1500; input.rows=2; input.placeholder=parentId ? 'Write a reply…' : 'Join the discussion…';
+    const button = el('button','',parentId ? 'Post reply' : 'Post comment'); button.type='submit';
+    form.append(input,button); form.addEventListener('submit',async e=>{e.preventDefault(); button.disabled=true; await publishComment(ideaId,parentId,input); button.disabled=false;}); return form;
+  }
+  document.getElementById('idea-form').addEventListener('submit',async e=>{
+    e.preventDefault(); const button=e.currentTarget.querySelector('button'); button.disabled=true;
+    const title=document.getElementById('idea-title').value.trim();
+    const category=document.getElementById('idea-category').value;
+    const description=document.getElementById('idea-description').value.trim();
+    if (!title || !CATEGORIES.includes(category)) { button.disabled=false; return; }
+    const {error}=await db.from('ideas').insert({title,category,description});
+    button.disabled=false;
+    if(error) setStatus(errorMessage(error)); else {e.currentTarget.reset(); sort.value='new'; filter.value=''; await load();}
+  });
+  filter.addEventListener('change',load); sort.addEventListener('change',load); load();
+})();
