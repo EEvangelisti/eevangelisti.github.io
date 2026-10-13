@@ -108,14 +108,15 @@
     form.append(input,button); form.addEventListener('submit',async e=>{e.preventDefault(); button.disabled=true; await publishComment(ideaId,parentId,input); button.disabled=false;}); return form;
   }
   document.getElementById('idea-form').addEventListener('submit',async e=>{
-    e.preventDefault(); const button=e.currentTarget.querySelector('button'); button.disabled=true;
+    const form = e.currentTarget;
+    e.preventDefault(); const button=form.querySelector('button'); button.disabled=true;
     const title=document.getElementById('idea-title').value.trim();
     const category=document.getElementById('idea-category').value;
     const description=document.getElementById('idea-description').value.trim();
     if (!title || !CATEGORIES.includes(category)) { button.disabled=false; return; }
     const {error}=await db.from('ideas').insert({title,category,description});
     button.disabled=false;
-    if(error) setStatus(errorMessage(error)); else {e.currentTarget.reset(); sort.value='new'; filter.value=''; await load();}
+    if(error) setStatus(errorMessage(error)); else {form.reset(); sort.value='new'; filter.value=''; await load();}
   });
   filter.addEventListener('change',load); sort.addEventListener('change',load); load();
 })();
