@@ -49,12 +49,25 @@
     for (const idea of filtered) list.append(renderIdea(idea, comments.filter(c => c.idea_id === idea.id)));
     setStatus(`${filtered.length} idea${filtered.length === 1 ? '' : 's'}`);
   }
+  const pendingVotes = new Set();
   async function vote(idea, value) {
-    const newValue = idea.mine === value ? 0 : value;
-    const result = newValue === 0
-      ? await db.from('idea_votes').delete().eq('idea_id',idea.id).eq('visitor_id',visitorId)
-      : await db.from('idea_votes').upsert({idea_id:idea.id,visitor_id:visitorId,value:newValue},{onConflict:'idea_id,visitor_id'});
-    if (result.error) setStatus(errorMessage(result.error)); else await load();
+    if (idea.mine || pendingVotes.has(idea.id)) {
+      if (idea.mine) setStatus('You have already voted on this idea.');
+      return;
+    }
+    pendingVotes.add(idea.id);
+    try {
+      const {error} = await db.from('idea_votes').insert({
+        idea_id: idea.id, visitor_id: visitorId, value
+      });
+      if (error) {
+        setStatus(error.code === '23505' ? 'You have already voted on this idea.' : errorMessage(error));
+      } else {
+        await load();
+      }
+    } finally {
+      pendingVotes.delete(idea.id);
+    }
   }
   async function publishComment(ideaId, parentId, input) {
     const body = input.value.trim(); if (!body) return;
@@ -69,7 +82,7 @@
     const controls = el('div','idea-votes');
     for (const [value,symbol,count] of [[1,'👍',idea.up],[-1,'👎',idea.down]]) {
       const b = el('button',idea.mine === value ? 'selected' : '',`${symbol} ${count}`);
-      b.type = 'button'; b.setAttribute('aria-label',value === 1 ? 'Upvote' : 'Downvote');
+      b.type = 'button'; b.disabled = Boolean(idea.mine); b.setAttribute('aria-label',value === 1 ? 'Upvote' : 'Downvote');
       b.setAttribute('aria-pressed',String(idea.mine === value)); b.addEventListener('click',()=>vote(idea,value)); controls.append(b);
     }
     card.append(controls);
