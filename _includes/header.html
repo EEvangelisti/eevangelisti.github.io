@@ -1,0 +1,30 @@
+<header class="site-header" role="banner">
+  <div class="wrapper omgn-header-inner">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="omgn-nav" aria-label="Main navigation">
+      <details class="omgn-dropdown" id="omgn-dropdown">
+        <summary aria-label="Open navigation menu"><span aria-hidden="true">☰</span> Menu <span aria-hidden="true">▾</span></summary>
+        <div class="omgn-dropdown-panel">
+          <a href="{{ '/oomycetes/' | relative_url }}">Oomycetes</a>
+          <a href="{{ '/announcements/' | relative_url }}">Announcements</a>
+          <a href="{{ '/community/' | relative_url }}">Community</a>
+          <a href="{{ '/ideas/' | relative_url }}">Community Ideas</a>
+          <a href="{{ '/meetings/' | relative_url }}">Meetings</a>
+          <a href="{{ '/committee/' | relative_url }}">Steering Committee</a>
+        </div>
+      </details>
+    </nav>
+  </div>
+</header>
+<script>
+(function () {
+  const menu = document.getElementById('omgn-dropdown');
+  if (!menu) return;
+  document.addEventListener('click', function (event) {
+    if (!menu.contains(event.target)) menu.open = false;
+  });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') menu.open = false;
+  });
+})();
+</script>
