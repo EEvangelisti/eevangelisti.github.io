@@ -204,3 +204,18 @@
 }
 .omgn-dropdown-panel a:hover,
 .omgn-dropdown-panel a:focus-visible { background: #f1f4f7; text-decoration: none; }
+
+/* OMGN — Align dropdown menu to the right */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header .site-nav {
+  margin-left: auto;
+  float: none;
+  position: relative;
+}
+
+
