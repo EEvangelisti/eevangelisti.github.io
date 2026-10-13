@@ -61,9 +61,20 @@
       const {error} = await db.rpc('omgn_cast_vote', {
         p_idea_id: idea.id, p_token: voteSecret, p_value: newValue
       });
-      if (error) setStatus(errorMessage(error));
-      else await load();
-    } finally { pendingVotes.delete(idea.id); }
+      if (error) {
+        console.error('OMGN vote error:', error);
+        setStatus(`Vote failed: ${error.message || 'Unknown error'}`);
+        return;
+      }
+    } catch (error) {
+      console.error('OMGN vote exception:', error);
+      setStatus(`Vote failed: ${error.message || 'Network error'}`);
+      return;
+    } finally {
+      // Release the lock BEFORE load() redraws the vote buttons.
+      pendingVotes.delete(idea.id);
+    }
+    await load();
   }
   async function publishComment(ideaId, parentId, input) {
     const body = input.value.trim(); if (!body) return;
