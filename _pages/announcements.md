@@ -19,7 +19,11 @@ permalink: /announcements/
 
 **Thursday 3 December 2026 · Online via Microsoft Teams**
 
-![OMGN Virtual Seminar 1 — Mating systems in Phytophthora](/assets/images/seminars/OMGN_Seminar1_banner.png)
+<img
+  src="/assets/images/seminars/OMGN_Seminar1_banner_square.png"
+  alt="OMGN Virtual Seminar 1 — Mating systems in Phytophthora"
+  style="display:block; width:100%; max-width:550px; height:auto; margin:25px auto;"
+>
 
 The Oomycete Molecular Genetics Network is delighted to
 launch its **Virtual Seminar Series**, bringing together
