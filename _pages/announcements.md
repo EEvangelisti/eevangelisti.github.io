@@ -7,51 +7,45 @@ permalink: /announcements/
 <div class="announcement-box">
   <span class="announcement-icon">📢</span>
   <span>
-    This page is open to anyone who wishes to share news, events, opportunities, or other information with the OMGN community.
+    This page is open to anyone who wishes to share news,
+    events, opportunities, or other information with
+    the OMGN community.
   </span>
 </div>
 
+## OMGN Virtual Seminar Series
 
-# OMGN Virtual Seminar Series — Seminar 1
+### Seminar 1 — Mating systems in *Phytophthora*
 
-## Mating systems in *Phytophthora*
+**Thursday 3 December 2026 · Online via Microsoft Teams**
 
-**Thursday 3 December 2026 | Online via Microsoft Teams**
+![OMGN Virtual Seminar 1 — Mating systems in Phytophthora](/assets/images/seminars/OMGN_Seminar1_banner.png)
 
-The Oomycete Molecular Genetics Network (OMGN) is pleased to launch its new **Virtual Seminar Series**, bringing together researchers from around the world to share recent discoveries and foster scientific exchange within the oomycete community.
+The Oomycete Molecular Genetics Network is delighted to
+launch its **Virtual Seminar Series**, bringing together
+researchers from around the world to share discoveries
+and foster scientific exchange.
 
-Our inaugural seminar will explore the fascinating biology and evolution of sexual reproduction in *Phytophthora*, featuring two presentations on mating-type determination, hormone biosynthesis, and reproductive plasticity.
+Our inaugural seminar features **Dr Milan Milenovic**
+(University of California, Riverside) and **Prof. Li-Yun Guo**
+(China Agricultural University), exploring mating-type
+determination, hormone biosynthesis, and reproductive
+plasticity in *Phytophthora*.
 
-### Our speakers
+**Moderator:** Prof. Erica Goss, University of Florida.
 
-**Dr Milan Milenovic**  
-*University of California, Riverside*
+**Schedule:** 3:00 pm PST · 6:00 pm EST · 11:00 pm GMT  
+00:00 CET (4 December) · 7:00 am Beijing (4 December)
 
-**Discovery of a mating-type determinant and hormone biosynthetic pathway illuminates mating system evolution in Phytophthora**
+**Format:** Two 20-minute presentations, each followed
+by 10 minutes of questions.
 
-Milan Milenovic is a postdoctoral researcher in the Judelson Lab, combining bioinformatics and experimental approaches to investigate *Phytophthora* functional genomics, development, mating-type biology, and ploidy variation.
+**Free registration — Open to everyone!**
 
-**Prof. Li-Yun Guo**  
-*China Agricultural University*
+[**Register for the seminar →**](https://events.teams.microsoft.com/event/41eae796-1ef7-4b44-99b2-3dd4d5caae97@0d4da0f8-4a31-4d76-ace6-0a62331e1b84)
 
-**Histone deacetylase perturbation reveals latent reproductive plasticity in heterothallic Phytophthora**
+The Microsoft Teams joining link will be emailed
+to registered participants.
 
-Li-Yun Guo is a retired Professor of Plant Pathology whose research has focused on the genetics, population biology, and evolution of fungal and oomycete pathogens.
+---
 
-### Seminar details
-
-**Date:** Thursday 3 December 2026
-
-**Time:** 3:00 pm PST · 6:00 pm EST · 11:00 pm GMT · 00:00 CET (4 December) · 7:00 am Beijing (4 December)
-
-**Moderator:** Prof. Erica Goss, University of Florida
-
-**Format:** Two 20-minute presentations, each followed by 10 minutes of questions.
-
-**Participation is free, but registration is required.**
-
-[Register for the seminar](https://events.teams.microsoft.com/event/41eae796-1ef7-4b44-99b2-3dd4d5caae97@0d4da0f8-4a31-4d76-ace6-0a62331e1b84)
-
-The Microsoft Teams joining link will be emailed to registered participants.
-
-We look forward to welcoming you to the first OMGN Virtual Seminar!
