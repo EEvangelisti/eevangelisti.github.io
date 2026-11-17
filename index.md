@@ -60,22 +60,13 @@ within the oomycete research community.
 
 ### Upcoming OMGN Virtual Seminar
 
-**Seminar 1 — Mating systems in *Phytophthora***
+[![OMGN Virtual Seminar 1](/assets/images/seminars/OMGN_Seminar1_banner.png)](/announcements/)
 
-📅 **Thursday 3 December 2026**  
-🕒 **3:00 pm PST | 11:00 pm GMT**  
-💻 **Online via Microsoft Teams — Free registration**
+**3 December 2026 — Mating systems in *Phytophthora***
 
-Join us for the inaugural OMGN Virtual Seminar featuring:
+Join us for the inaugural OMGN Virtual Seminar featuring Dr Milan Milenovic and Prof. Li-Yun Guo.
 
-- **Dr Milan Milenovic** — University of California, Riverside
-- **Prof. Li-Yun Guo** — China Agricultural University
-
-Two talks exploring mating-type determination and reproductive plasticity in *Phytophthora*.
-
-[**Register now →**](https://events.teams.microsoft.com/event/41eae796-1ef7-4b44-99b2-3dd4d5caae97@0d4da0f8-4a31-4d76-ace6-0a62331e1b84)
-
-[Read the full announcement](/announcements/)
+[**Read more and register →**](/announcements/)
 
 ---
 
